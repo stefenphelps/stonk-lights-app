@@ -1,0 +1,372 @@
+@use "../utility/variables";
+@use "../utility/mixins";
+
+// ---
+// General Element Selectors
+// ---
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: variables.$dark-main;
+  color: variables.$white;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+hr {
+  border: 0 none;
+  border-top: 3px solid variables.$white;
+  display: block;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  opacity: 0.18;
+}
+
+// ---
+// Header
+// ---
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1.5rem 1rem 0 1rem;
+  background: variables.$dark-secondary;
+  &-logo {
+    margin: 0 0 -1rem;
+    &-svg {
+      width: 300px;
+      filter: drop-shadow(0px 0px 18px transparentize(variables.$blue, 0.25));
+      animation: flicker-shadow 6s linear infinite alternate;
+    }
+  }
+}
+
+// ---
+// Main Site Content
+// ---
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 5rem 0;
+  background: linear-gradient(
+    to right,
+    variables.$dark-secondary,
+    variables.$dark-main
+  );
+  &-media {
+    flex: 1 1 250px;
+    margin: 0;
+    position: sticky;
+    top: -5rem;
+    z-index: 1;
+    pointer-events: none;
+    img {
+      position: sticky;
+      top: -3rem;
+      display: none;
+      &.active {
+        display: block;
+      }
+    }
+  }
+  &-text {
+    flex: 0 1 450px;
+    margin: 2rem;
+    @include mixins.bp(sm) {
+      margin: 3rem 10% 3rem 0;
+    }
+    &-sup {
+      margin-bottom: 0;
+      color: variables.$red;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+    &-h1 {
+      margin: 0.25rem 0 1rem;
+    }
+    &-h2 {
+      display: flex;
+      align-items: center;
+      margin: 1rem 0;
+      span {
+        flex: 1 1 400px;
+      }
+      .button {
+        flex: 0 0 150px;
+        margin: 0 1rem;
+        display: block;
+      }
+    }
+  }
+}
+
+.customizer {
+  padding: 2rem 0;
+  .wrapper {
+    max-width: 900px;
+  }
+  fieldset {
+    border: 0 none;
+    padding: 0;
+    margin: 2rem 0 0 0;
+    border-top: 3px solid transparentize(variables.$white, 0.9);
+  }
+  legend {
+    font-size: 2.5rem;
+    padding-right: 1.5rem;
+    margin: 0 0 1rem;
+  }
+  ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    margin: -1rem;
+  }
+  &-option {
+    margin: 1rem;
+    flex: 1 1 170px;
+    &-image {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5rem;
+      margin-right: 1rem;
+      border: 1px solid transparentize(variables.$white, 0.75);
+      opacity: 0.6;
+      border-radius: 0.25rem;
+      svg {
+        display: block;
+        flex: 40px;
+      }
+    }
+    &-text {
+      flex: 1 1 100px;
+      font-size: 1.25rem;
+      opacity: 0.65;
+      line-height: 1;
+      b {
+        display: block;
+        font-size: 1.5rem;
+      }
+    }
+    label {
+      border: 1px solid transparentize(variables.$white, 0.85);
+      padding: 1rem;
+      border-radius: 0.5rem;
+      display: flex;
+      align-items: center;
+      transition: 400ms ease;
+      cursor: pointer;
+      background: transparent;
+    }
+    input[type="radio"] {
+      position: absolute;
+      visibility: hidden;
+      &:hover,
+      &:focus {
+        ~ label {
+          border-color: white;
+          background: transparentize(variables.$white, 0.9);
+        }
+      }
+      &:checked ~ label {
+        border-color: white;
+        background: transparentize(variables.$white, 0.9);
+        .customizer-option-text,
+        .customizer-option-image {
+          opacity: 1;
+        }
+      }
+    }
+    &--quantity {
+      label {
+        border-color: white;
+      }
+      .customizer-option-text {
+        opacity: 1;
+      }
+      .customizer-option-image {
+        opacity: 1;
+        padding: 0;
+        width: 70px;
+        input#quantity {
+          padding: 0 0.75rem;
+          font-size: 1rem;
+          height: 100%;
+          width: 100%;
+          border-radius: 0.25rem;
+          background: transparentize(variables.$white, 0.9);
+          color: white;
+        }
+      }
+    }
+    &--price {
+      font-size: 4rem;
+      line-height: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &--checkout {
+      text-align: center;
+      .button {
+        margin: 0;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.app-page {
+  main {
+    margin: 3rem 0;
+  }
+  .scanning {
+    position: fixed;
+    top: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    transition: all 250ms ease;
+    &:before {
+      content: "";
+      position: absolute;
+      background: black;
+      opacity: 0.5;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+    &.hidden {
+      opacity: 0;
+      visibility: hidden;
+    }
+    div {
+      position: relative;
+    }
+    span {
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      margin: 0.5rem;
+      background: white;
+      opacity: 0.5;
+      border-radius: 50%;
+      animation: 1s fade infinite alternate;
+      &:nth-child(2) {
+        animation-delay: 0.2s;
+      }
+      &:nth-child(3) {
+        animation-delay: 0.4s;
+      }
+    }
+    p {
+    }
+  }
+  .lights {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    &-item {
+      position: relative;
+      background: none;
+      border: 0 none;
+      margin: 1rem;
+      filter: drop-shadow(0px 0px 18px transparentize(variables.$green, 0.125));
+      span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        padding: 1.5rem;
+        text-transform: uppercase;
+        font-weight: bold;
+      }
+      &:hover,
+      &:focus {
+        filter: drop-shadow(0px 0px 18px transparentize(variables.$red, 0.125));
+        outline: 0;
+        cursor: pointer;
+      }
+    }
+  }
+  dialog {
+    &::backdrop {
+      backdrop-filter: blur(10px);
+    }
+    border: 0 none;
+    background: transparentize(black, 0.125);
+    color: white;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    fieldset {
+      margin: 1rem;
+      border-left: 0 none;
+      border-right: 0 none;
+      border-bottom: 0 none;
+    }
+    legend {
+      padding: 0 1rem;
+      display: inline-block;
+      font-size: 2rem;
+    }
+    label {
+      text-transform: capitalize;
+    }
+    .category-fieldset {
+      &-items {
+        display: flex;
+        &-item {
+          flex: 1;
+          text-align: center;
+          input[type="radio"] {
+            position: absolute;
+            visibility: hidden;
+          }
+          label {
+            display: block;
+            padding: 1rem;
+            border: 1px solid white;
+            opacity: 0.75;
+            border-radius: 0.5rem;
+            margin: 1rem;
+          }
+          input[type="radio"]:checked ~ label {
+            opacity: 1;
+          }
+        }
+      }
+    }
+    .symbol-fieldset {
+      input {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
+
+// ---
+// Footer
+// ---
+.footer {
+  padding: 1rem;
+  opacity: 0.45;
+}

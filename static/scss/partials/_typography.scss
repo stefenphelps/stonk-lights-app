@@ -1,0 +1,58 @@
+// ---
+// Typography
+// ---
+
+html {
+	font-family: "Heebo", sans-serif;
+}
+
+code,
+kbd,
+samp,
+pre {
+	font-family:
+    /* macOS 10.10+ */ "Menlo", /* Windows 6+ */ "Consolas",
+		/* Android 4+ */ "Roboto Mono", /* Ubuntu 10.10+ */ "Ubuntu Monospace",
+		/* KDE Plasma 5+ */ "Noto Mono", /* KDE Plasma 4+ */ "Oxygen Mono",
+		/* Linux/OpenOffice fallback */ "Liberation Mono",
+		/* fallback */ monospace, /* macOS emoji */ "Apple Color Emoji",
+		/* Windows emoji */ "Segoe UI Emoji",
+		/* Windows emoji */ "Segoe UI Symbol",
+		/* Linux emoji */ "Noto Color Emoji";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: 300;
+}
+
+.hero h1 {
+	font-size: 58px;
+	letter-spacing: -0.01em;
+	line-height: 64px;
+}
+h1 {
+	font-size: 40px;
+	line-height: 42px;
+}
+h2 {
+	font-size: 28px;
+	letter-spacing: -0.01em;
+	line-height: 36px;
+}
+h3 {
+	font-size: 18px;
+	line-height: 26px;
+}
+
+p {
+	margin: 0 0 1rem 0;
+}
+
+a {
+	color: white;
+}

@@ -1,0 +1,43 @@
+@use "../utility/variables";
+@use "../utility/mixins";
+
+// ---
+// Forms
+// ---
+textarea {
+	overflow: auto;
+	vertical-align: top;
+}
+
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"] {
+	border-radius: .5rem;
+	background: white;
+	border: 1px solid white;
+	color: variables.$dark-main;
+	line-height: 1;
+	padding: 1rem 2rem;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 1.2;
+	text-decoration: none;
+	margin: 2rem 0 2rem;
+	transition: all 284ms ease;
+	width: 100%;
+	&:focus {
+	}
+}

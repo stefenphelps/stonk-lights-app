@@ -1,0 +1,33 @@
+@use "variables";
+// ---
+// Mixins
+// ---
+
+$MQs: true;
+@mixin bp($point) {
+  @if ($MQs) {
+    // These screen sized map to the screen variables in _varibles.scss
+    $bp-xs: "(min-width: #{variables.$screen-xs})";
+    $bp-sm: "(min-width: #{variables.$screen-sm})";
+    $bp-md: "(min-width: #{variables.$screen-md})";
+    $bp-lg: "(min-width: #{variables.$screen-lg})";
+
+    @if $point == xs {
+      @media #{$bp-xs} {
+        @content;
+      }
+    } @else if $point == sm {
+      @media #{$bp-sm} {
+        @content;
+      }
+    } @else if $point == md {
+      @media #{$bp-md} {
+        @content;
+      }
+    } @else if $point == lg {
+      @media #{$bp-lg} {
+        @content;
+      }
+    }
+  }
+}
