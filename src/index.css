@@ -493,23 +493,6 @@ template {
   display: none;
 }
 
-/* User interaction
- * ========================================================================== */
-/*
- * Remove the tapping delay in IE 10.
- */
-a,
-area,
-button,
-input,
-label,
-select,
-summary,
-textarea,
-[tabindex] {
-  -ms-touch-action: manipulation;
-}
-
 /**
  * Add the correct display in IE 10-.
  */

@@ -1,4 +1,4 @@
-var { Control, Discovery } = require("magic-home");
+var { Control, Discovery } = require('magic-home');
 var cryptocoins = require("./functions/cryptocoins");
 var stock = require("./functions/stock");
 var stockMarket = require("./functions/stockMarket");
