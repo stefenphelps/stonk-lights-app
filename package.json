@@ -2,7 +2,7 @@
   "name": "StonkLights",
   "productName": "StonkLights",
   "version": "1.0.0",
-  "description": "Setup your stonk light.",
+  "description": "Setup your Stonklight",
   "main": "src/index.js",
   "scripts": {
     "start": "electron-forge start",
@@ -13,8 +13,8 @@
   },
   "keywords": [],
   "author": {
-    "name": "berlewbrandon",
-    "email": "71850765+berlewbrandon@users.noreply.github.com"
+    "name": "Stonk-Lights-Dev-Team",
+    "email": "exaple@exaple.com"
   },
   "license": "MIT",
   "config": {
@@ -24,7 +24,7 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "my_app"
+            "name": "stonk_lights_app"
           }
         },
         {
@@ -45,8 +45,7 @@
     }
   },
   "dependencies": {
-    "electron-squirrel-startup": "^1.0.0",
-    "magic-home": "^2.6.1"
+    "electron-squirrel-startup": "^1.0.0"
   },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.53",
