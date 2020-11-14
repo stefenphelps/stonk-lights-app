@@ -1,4 +1,4 @@
-export default async function(crypto_symbol) {
+async function cryptocoins(crypto_symbol) {
 	try {
 		var response = await fetch(
 			"https://api.cryptonator.com/api/ticker/" + crypto_symbol + "-usd"
@@ -9,3 +9,5 @@ export default async function(crypto_symbol) {
 		console.log(error);
 	}
 }
+
+exports.cryptocoins = cryptocoins;

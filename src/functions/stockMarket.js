@@ -1,4 +1,4 @@
-export default function() {
+function stockMarket() {
 	var format = "hh:mm:ss";
 	var currentDay = Date.now();
 	var stockMarketOpen = "09:30:00"
@@ -19,3 +19,5 @@ export default function() {
 		return false;
 	}
 }
+
+exports.stockMarket = stockMarket;

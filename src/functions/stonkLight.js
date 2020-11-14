@@ -2,7 +2,7 @@ function sleep(ms) {
   return new Promise(resolve => setTimeout(resolve, ms));
 }
 
-export default async function (
+async function stonkLight(
 	light,
 	previousPrice,
 	currentPrice
@@ -41,3 +41,5 @@ export default async function (
 		}
 	}
 }
+
+exports.stonkLight = stonkLight;

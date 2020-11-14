@@ -1,8 +1,8 @@
-var { Control, Discovery } = require('magic-home');
-var cryptocoins = require("./functions/cryptocoins");
-var stock = require("./functions/stock");
-var stockMarket = require("./functions/stockMarket");
-var stonkLight = require("./functions/stonkLight");
+const { Control, Discovery } = require('magic-home');
+const cryptocoins = require('./functions/cryptocoins.js');
+const stock = require('./functions/stock.js');
+const stockMarket = require('./functions/stockMarket.js');
+const stonkLight = require('./functions/stonkLight.js');
 
 // UI Variables
 var loadingIndicator = document.querySelector(".scanning");
@@ -25,8 +25,9 @@ discovery.scan(500).then((devices) => {
 
       var light = lightTemplate.content.cloneNode(true);
       lightsContainer.appendChild(light);
+
       var lightSettings = lightSettingsTemplate.content.cloneNode(true);
-      document.body.appendChild(lightsettings);
+      document.body.appendChild(lightSettings);
     
       var stockInput = dialogs[index].querySelector("input#stock");
       var stockLabel = dialogs[index].querySelector('label[for="stock"]');

@@ -1,4 +1,4 @@
-export default async function(stock_symbol) {
+async function stock(stock_symbol) {
 	try {
 		var response = await fetch(
 			"https://finance.yahoo.com/quote/" + stock_symbol + "/"
@@ -12,3 +12,5 @@ export default async function(stock_symbol) {
 		console.log(error);
 	}
 }
+
+exports.stock = stock;
