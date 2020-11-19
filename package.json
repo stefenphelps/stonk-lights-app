@@ -10,14 +10,16 @@
   },
   "version": "1.0.0",
   "author": {
-    "name": "Stonk-Lights-Dev-Team",
-    "email": "exaple@exaple.com"
+    "name": "Stefen Phelps",
+    "email": "stefen@kelp.agency"
   },
   "license": "MIT",
-  "description": "Setup your Stonklight",
+  "description": "Setup and run your Stonklight!",
   "config": {
     "forge": {
-      "packagerConfig": {},
+      "packagerConfig": {
+        "icon": "AppIcon.icns"
+      },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
