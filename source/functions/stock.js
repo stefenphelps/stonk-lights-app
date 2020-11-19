@@ -1,9 +1,11 @@
-async function getPrice(stock_symbol) {
+const axios = require("axios").default;
+
+const getPrice = async function (stock_symbol) {
   try {
-    var response = await fetch(
+    const response = await axios.get(
       "https://finance.yahoo.com/quote/" + stock_symbol + "/"
     );
-    var price = await response.data
+    var price = response.data
       .split("currentPrice")[1]
       .split('fmt":"')[1]
       .split('"')[0];
@@ -11,6 +13,6 @@ async function getPrice(stock_symbol) {
   } catch (error) {
     console.log(error);
   }
-}
+};
 
 exports.getPrice = getPrice;

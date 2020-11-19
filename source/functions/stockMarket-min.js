@@ -1,1 +1,0 @@
-function isOpen(){var e=Date.now();return!!(e>=1&&e<=5&&"America/New_York".isBetween("09:30:00","16:00:00"))}exports.isOpen=isOpen;

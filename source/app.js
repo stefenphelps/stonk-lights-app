@@ -13,7 +13,6 @@ var lightSettingsTemplate = document.querySelector("#light-settings");
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
-// todo: connect light to network
 
 // scan for lights on network
 var discovery = new Discovery();
@@ -98,14 +97,12 @@ discovery.scan(500).then((devices) => {
             "#light-button-" + index + " span"
           ).textContent = symbol_input.value;
           document.querySelector("#dialog-" + index).close();
+          // todo: update these variables with the current input value in the current dialog popup
+          var isCrypto = false;
+          var symbol = "TSLA";
+          theLoop(light, isCrypto, symbol);
         });
       });
-
-      // todo: update these variables with the current input value in the current dialog popup
-      var isCrypto = false;
-      var symbol = "TSLA";
-
-      theLoop(light, isCrypto, symbol);
     });
   });
 });
@@ -122,8 +119,11 @@ async function theLoop(light, crypto, symbol) {
         await sleep(31000);
         // every loop after first
         newPrice = await cryptocoins.getPrice(symbol);
+        console.log({ newPrice });
         await stonkLight.colorChange(light, newPrice, oldPrice);
+        await sleep(31000);
         oldPrice = await cryptocoins.getPrice(symbol);
+        console.log({ oldPrice });
       }
     }
   } else {
@@ -133,8 +133,10 @@ async function theLoop(light, crypto, symbol) {
         oldPrice = await stock.getPrice(symbol);
       } else {
         // every loop after first
+        await sleep(2000);
         newPrice = await stock.getPrice(symbol);
         await stonkLight.colorChange(light, newPrice, oldPrice);
+        await sleep(2000);
         oldPrice = await stock.getPrice(symbol);
       }
     }
