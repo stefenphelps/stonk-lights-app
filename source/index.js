@@ -15,7 +15,7 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: true,
       frame: false,
-      devTools: false,
+      devTools: true,
     },
   });
 

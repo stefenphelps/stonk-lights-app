@@ -288,9 +288,9 @@ button {
  * Correct the inability to style buttons in iOS and Safari.
  */
 button,
-[type=button],
-[type=reset],
-[type=submit] {
+[type="button"],
+[type="reset"],
+[type="submit"] {
   -webkit-appearance: button;
 }
 
@@ -364,8 +364,8 @@ textarea {
 /**
  * Remove the padding in IE 10-.
  */
-[type=checkbox],
-[type=radio] {
+[type="checkbox"],
+[type="radio"] {
   padding: 0;
 }
 
@@ -373,7 +373,7 @@ textarea {
  * 1. Correct the odd appearance in Chrome, Edge, and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type=search] {
+[type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
   outline-offset: -2px;
@@ -505,7 +505,7 @@ template {
 /**
  * Change the cursor on busy elements in all browsers (opinionated).
  */
-[aria-busy=true] {
+[aria-busy="true"] {
   cursor: progress;
 }
 
@@ -520,7 +520,7 @@ template {
  * Change the cursor on disabled, not-editable, or otherwise
  * inoperable elements in all browsers (opinionated).
  */
-[aria-disabled=true],
+[aria-disabled="true"],
 [disabled] {
   cursor: not-allowed;
 }
@@ -529,11 +529,11 @@ template {
  * Change the display on visually hidden accessible elements
  * in all browsers (opinionated).
  */
-[aria-hidden=false][hidden] {
+[aria-hidden="false"][hidden] {
   display: initial;
 }
 
-[aria-hidden=false][hidden]:not(:focus) {
+[aria-hidden="false"][hidden]:not(:focus) {
   clip: rect(0, 0, 0, 0);
   position: absolute;
 }
@@ -573,19 +573,43 @@ template {
   }
 }
 @keyframes flicker-shadow {
-  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
     filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.9875));
   }
-  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
     filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.5));
   }
 }
 @keyframes flicker-background-red {
-  0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+  0%,
+  19.999%,
+  22%,
+  62.999%,
+  64%,
+  64.999%,
+  70%,
+  100% {
     background: #ff2366;
     box-shadow: 0px 0px 18px rgba(255, 35, 102, 0.9875);
   }
-  20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+  20%,
+  21.999%,
+  63%,
+  63.999%,
+  65%,
+  69.999% {
     background: rgba(255, 35, 102, 0.95);
     box-shadow: 0px 0px 18px rgba(255, 35, 102, 0.5);
   }
@@ -598,7 +622,9 @@ code,
 kbd,
 samp,
 pre {
-  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace", "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace",
+    "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 h1,
@@ -642,8 +668,8 @@ a {
 
 .button {
   border-radius: 0.5rem;
-  background: #0B78E3;
-  border: 1px solid #0B78E3;
+  background: #0b78e3;
+  border: 1px solid #0b78e3;
   color: #ffffff;
   line-height: 1;
   padding: 1rem 2rem;
@@ -665,10 +691,11 @@ a {
   color: white;
   border-color: white;
 }
-.button:hover, .button:focus {
+.button:hover,
+.button:focus {
   cursor: pointer;
-  background: #FF2366;
-  border-color: #FF2366;
+  background: #ff2366;
+  border-color: #ff2366;
   color: white;
   animation: flicker-background-red 5s linear infinite alternate;
 }
@@ -677,9 +704,10 @@ a {
   opacity: 0.5;
   cursor: not-allowed;
 }
-.button[disabled]:hover, .button[disabled]:focus {
-  background-color: #0B78E3 !important;
-  border: 1px solid #0B78E3 !important;
+.button[disabled]:hover,
+.button[disabled]:focus {
+  background-color: #0b78e3 !important;
+  border: 1px solid #0b78e3 !important;
   color: #ffffff !important;
   animation: none !important;
 }
@@ -690,19 +718,19 @@ textarea {
 }
 
 textarea,
-input[type=text],
-input[type=password],
-input[type=datetime],
-input[type=datetime-local],
-input[type=date],
-input[type=month],
-input[type=time],
-input[type=week],
-input[type=number],
-input[type=email],
-input[type=url],
-input[type=search],
-input[type=tel] {
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"] {
   border-radius: 0.5rem;
   background: white;
   border: 1px solid white;
@@ -747,7 +775,7 @@ hr {
   align-items: center;
   justify-content: center;
   padding: 1.5rem 1rem 0 1rem;
-  background: #0E0F1A;
+  background: #0e0f1a;
 }
 .header-logo {
   margin: 0 0 -1rem;
@@ -763,7 +791,7 @@ hr {
   flex-wrap: wrap;
   justify-content: center;
   padding: 5rem 0;
-  background: linear-gradient(to right, #0E0F1A, #161823);
+  background: linear-gradient(to right, #0e0f1a, #161823);
 }
 .hero-media {
   flex: 1 1 250px;
@@ -792,7 +820,7 @@ hr {
 }
 .hero-text-sup {
   margin-bottom: 0;
-  color: #FF2366;
+  color: #ff2366;
   text-transform: uppercase;
   font-weight: 500;
 }
@@ -877,20 +905,24 @@ hr {
   cursor: pointer;
   background: transparent;
 }
-.customizer-option input[type=radio] {
+.customizer-option input[type="radio"] {
   position: absolute;
   visibility: hidden;
 }
-.customizer-option input[type=radio]:hover ~ label, .customizer-option input[type=radio]:focus ~ label {
+.customizer-option input[type="radio"]:hover ~ label,
+.customizer-option input[type="radio"]:focus ~ label {
   border-color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-.customizer-option input[type=radio]:checked ~ label {
+.customizer-option input[type="radio"]:checked ~ label {
   border-color: white;
   background: rgba(255, 255, 255, 0.1);
 }
-.customizer-option input[type=radio]:checked ~ label .customizer-option-text,
-.customizer-option input[type=radio]:checked ~ label .customizer-option-image {
+.customizer-option input[type="radio"]:checked ~ label .customizer-option-text,
+.customizer-option
+  input[type="radio"]:checked
+  ~ label
+  .customizer-option-image {
   opacity: 1;
 }
 .customizer-option--quantity label {
@@ -943,6 +975,12 @@ hr {
   justify-content: center;
   opacity: 1;
   transition: all 250ms ease;
+  z-index: 1;
+}
+.app-page .scanning.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 250ms ease;
 }
 .app-page .scanning:before {
   content: "";
@@ -954,10 +992,7 @@ hr {
   width: 100%;
   height: 100%;
 }
-.app-page .scanning.hidden {
-  opacity: 0;
-  visibility: hidden;
-}
+
 .app-page .scanning div {
   position: relative;
 }
@@ -976,6 +1011,18 @@ hr {
 }
 .app-page .scanning span:nth-child(3) {
   animation-delay: 0.4s;
+}
+.app-page .no-results {
+  text-align: center;
+  opacity: 1;
+  transition: all 250ms ease;
+  padding: 1rem;
+  visibility: visible;
+}
+.app-page .no-results.hidden {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 250ms ease;
 }
 .app-page .lights {
   display: flex;
@@ -1000,7 +1047,8 @@ hr {
   text-transform: uppercase;
   font-weight: bold;
 }
-.app-page .lights-item:hover, .app-page .lights-item:focus {
+.app-page .lights-item:hover,
+.app-page .lights-item:focus {
   filter: drop-shadow(0px 0px 18px rgba(255, 35, 102, 0.875));
   outline: 0;
   cursor: pointer;
@@ -1037,7 +1085,7 @@ hr {
   flex: 1;
   text-align: center;
 }
-.app-page dialog .category-fieldset-items-item input[type=radio] {
+.app-page dialog .category-fieldset-items-item input[type="radio"] {
   position: absolute;
   visibility: hidden;
 }
@@ -1049,7 +1097,11 @@ hr {
   border-radius: 0.5rem;
   margin: 1rem;
 }
-.app-page dialog .category-fieldset-items-item input[type=radio]:checked ~ label {
+.app-page
+  dialog
+  .category-fieldset-items-item
+  input[type="radio"]:checked
+  ~ label {
   opacity: 1;
 }
 .app-page dialog .symbol-fieldset input {

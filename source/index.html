@@ -8,7 +8,7 @@
       content="Stock signs that change colors based on the current stock price movement. The perfect desk compliment for the stonk lover in your life."
     />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta property="og:title" content="StonkLights.com - PRE-ORDER" />
+    <meta property="og:title" content="StonkLights" />
     <link rel="stylesheet" href="index.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Heebo:wght@300;400;500&display=swap"
@@ -79,6 +79,14 @@
           <p>Scanning your network for stonk lights...</p>
         </div>
       </div>
+      <div class="no-results hidden">
+        <p>Sorry, no lights were found on your network.</p>
+        <button class="button no-results-retry">Retry Scan</button>
+        <p>
+          Have you setup the StonkLight on your network yet?
+          <a href="https://www.stonklights.com/setup">Read the simple guide.</a>
+        </p>
+      </div>
       <template id="light-settings">
         <dialog class="dialog" id="">
           <fieldset class="category-fieldset">
@@ -120,10 +128,5 @@
         <a href="https://www.kelp.agency/">Kelp Creative Agency</a></small
       >
     </footer>
-    <script
-      async
-      src="https://platform.twitter.com/widgets.js"
-      charset="utf-8"
-    ></script>
   </body>
 </html>
