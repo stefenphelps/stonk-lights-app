@@ -15,10 +15,7 @@
   },
   "license": "MIT",
   "description": "Setup and run your Stonklight!",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/kelpagency/Stonk-Lights-App.git"
-  },
+  
   "config": {
     "forge": {
       "packagerConfig": {
@@ -29,7 +26,9 @@
           "name": "@electron-forge/maker-squirrel",
           "config": {
             "name": "StonkLights",
-            "iconUrl": "AppIcon.ico"
+            "iconUrl": "https://www.kelp.agency/wp-content/uploads/2020/11/AppIcon.ico",
+            "setupIcon": "icon/AppIcon.ico",
+            "loadingGif": "icon/stonklight-loading.gif"
           }
         },
         {
