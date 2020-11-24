@@ -35,7 +35,9 @@
           "name": "@electron-forge/maker-dmg",
           "config": {
             "name": "StonkLights",
-            "format": "ULFO"
+            "format": "ULFO",
+            "icon": "AppIcon.icns",
+            "background": "AppBackground.png"
           },
           "platforms": [
             "darwin"
