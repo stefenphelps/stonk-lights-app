@@ -1,3 +1,5 @@
+require("update-electron-app")();
+
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
 
@@ -15,7 +17,7 @@ const createWindow = () => {
     webPreferences: {
       nodeIntegration: true,
       frame: false,
-      devTools: true,
+      devTools: false,
     },
   });
 

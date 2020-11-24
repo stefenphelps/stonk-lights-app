@@ -25,42 +25,18 @@
 		"oAP": "/AppIcon.icns",
 		"oF": 0
 		},
+	"/AppIcon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/AppIcon.ico",
+		"oF": 0
+		},
 	"/node_modules": {
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/node_modules",
-		"oF": 0
-		},
-	"/out/make/zip/darwin/x64/StonkLights-darwin-x64-1.0.0.zip": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/make/zip/darwin/x64/StonkLights-darwin-x64-1.0.0.zip",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/LICENSE": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/LICENSE",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/LICENSES.chromium.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/LICENSES.chromium.html",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
 		"oF": 0
 		},
 	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler": {
@@ -607,28 +583,12 @@
 		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj/locale.pak",
 		"oF": 0
 		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
-		"oF": 0
-		},
 	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
 		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
 		"oF": 0
 		},
 	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources/Info.plist": {
@@ -655,399 +615,10 @@
 		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
 		"oF": 0
 		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (GPU).app/Contents/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (GPU).app/Contents/Info.plist",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (GPU).app/Contents/MacOS/StonkLights Helper (GPU)": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (GPU).app/Contents/MacOS/StonkLights Helper (GPU)",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (GPU).app/Contents/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (GPU).app/Contents/PkgInfo",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Plugin).app/Contents/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Plugin).app/Contents/Info.plist",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Plugin).app/Contents/MacOS/StonkLights Helper (Plugin)": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Plugin).app/Contents/MacOS/StonkLights Helper (Plugin)",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Plugin).app/Contents/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Plugin).app/Contents/PkgInfo",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Renderer).app/Contents/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Renderer).app/Contents/Info.plist",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Renderer).app/Contents/MacOS/StonkLights Helper (Renderer)": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Renderer).app/Contents/MacOS/StonkLights Helper (Renderer)",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Renderer).app/Contents/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper (Renderer).app/Contents/PkgInfo",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper.app/Contents/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper.app/Contents/Info.plist",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper.app/Contents/MacOS/StonkLights Helper": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper.app/Contents/MacOS/StonkLights Helper",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper.app/Contents/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/StonkLights Helper.app/Contents/PkgInfo",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Info.plist": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Info.plist",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/MacOS/StonkLights": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/MacOS/StonkLights",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/PkgInfo": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/PkgInfo",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/.gitignore": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/.gitignore",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/AppIcon.icns": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/AppIcon.icns",
-		"oF": 0
-		},
 	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/node_modules": {
 		"ft": 65536,
 		"oA": 2,
 		"oAP": "/build/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/node_modules",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/package-lock.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/package-lock-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/package.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/package-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/android-chrome-192x192.png": {
-		"ft": 32768,
-		"iS": 7303,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/android-chrome-192x192.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/android-chrome-512x512.png": {
-		"ft": 32768,
-		"iS": 19095,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/android-chrome-512x512.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/app-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/app-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/app.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/app-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/apple-touch-icon.png": {
-		"ft": 32768,
-		"iS": 5695,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/apple-touch-icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/browserconfig.xml": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/browserconfig.xml",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/favicon-16x16.png": {
-		"ft": 32768,
-		"iS": 1057,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/favicon-16x16.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/favicon-32x32.png": {
-		"ft": 32768,
-		"iS": 2089,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/favicon-32x32.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/favicon.ico": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/favicon.ico",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/cryptocoins.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/cryptocoins-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/stock.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/stock-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/stockMarket.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/stockMarket-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/stonkLight.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/functions/stonkLight-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index-min.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index-min-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index-min.css",
-		"oF": 0,
-		"oS": 3
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index.html": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index.html",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/index-min.js",
-		"oF": 0,
-		"sC": 3,
-		"tS": 0
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/maskable_icon.png": {
-		"ft": 32768,
-		"iS": 35847,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/maskable_icon.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/mstile-150x150.png": {
-		"ft": 32768,
-		"iS": 5399,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/source/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"ou": "lpckwebp-none",
-		"q": 100,
-		"rq": 75
-		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/electron.icns": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/electron.icns",
-		"oF": 0
-		},
-	"/out/StonkLights-darwin-x64/version": {
-		"cB": 0,
-		"ft": 8192,
-		"hM": 0,
-		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/version",
 		"oF": 0
 		},
 	"/package-lock.json": {
@@ -1767,7 +1338,7 @@
 			"optionString": "{'exceptMethods': []}"
 			},
 		"comma-dangle": {
-			"active": 1,
+			"active": 0,
 			"optionString": "'never'"
 			},
 		"comma-spacing": {
