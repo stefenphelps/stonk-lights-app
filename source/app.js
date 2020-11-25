@@ -151,6 +151,7 @@ function discover() {
         });
       } else {
         // no authentic lights found!
+        noResultsMessage.classList.remove("hidden");
       }
     });
   });
