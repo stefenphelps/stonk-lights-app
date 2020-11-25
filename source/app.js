@@ -5,6 +5,7 @@ const stockMarket = require("./functions/stockMarket.js");
 const stonkLight = require("./functions/stonkLight.js");
 
 var shell = require("electron").shell;
+
 //open links externally by default
 $(document).on("click", 'a[href^="http"]', function (event) {
   event.preventDefault();
@@ -22,6 +23,24 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+var authenticLightIds = [
+  "10521CCE8D6D",
+  "2462AB32341A",
+  "5002912159B3",
+  "500291214E93",
+  "500291214E45",
+  "500291214F74",
+  "500291214CE6",
+  "500291214E34",
+  "500291215197",
+  "500291214C32",
+  "5002912154BF",
+  "500291214E83",
+  "500291214F71",
+  "500291214C97",
+  "5002912152E5",
+];
+
 function discover() {
   // scan for lights on network
   loadingIndicator.classList.remove("hidden");
@@ -36,97 +55,103 @@ function discover() {
     }
 
     devices.forEach(function (device, index) {
-      // turn light on and initialize stonks
-      var light = new Control(device.address);
-      light.setPower(true).then((success) => {
-        var lightButton = lightTemplate.content.cloneNode(true);
-        lightButton.querySelector(".lights-item").id = "light-button-" + index;
-        lightsContainer.appendChild(lightButton);
+      // only change our magic home lights
+      if (authenticLightIds.includes(device.id)) {
+        // turn light on and initialize stonks
+        var light = new Control(device.address);
+        light.setPower(true).then((success) => {
+          var lightButton = lightTemplate.content.cloneNode(true);
+          lightButton.querySelector(".lights-item").id =
+            "light-button-" + index;
+          lightsContainer.appendChild(lightButton);
 
-        var lightSettings = document.importNode(
-          lightSettingsTemplate.content,
-          true
-        );
-        lightSettings.querySelector(".dialog").id = "dialog-" + index;
-        document.body.appendChild(lightSettings);
-
-        var stockInput = document.querySelector(
-          "#dialog-" + index + " input#stock"
-        );
-        var stockLabel = document.querySelector(
-          "#dialog-" + index + ' label[for="stock"]'
-        );
-        var cryptoInput = document.querySelector(
-          "#dialog-" + index + " input#crypto"
-        );
-        var cryptoLabel = document.querySelector(
-          "#dialog-" + index + ' label[for="crypto"]'
-        );
-        var symbolInput = document.querySelector(
-          "#dialog-" + index + " input#symbol"
-        );
-        var symbolLabel = document.querySelector(
-          "#dialog-" + index + ' label[for="symbol"]'
-        );
-
-        stockInput.setAttribute("id", "stock-" + index);
-        stockLabel.setAttribute("for", "stock-" + index);
-        cryptoInput.setAttribute("id", "crypto-" + index);
-        cryptoLabel.setAttribute("for", "crypto-" + index);
-        symbolInput.setAttribute("id", "symbol-" + index);
-        symbolLabel.setAttribute("for", "symbol-" + index);
-
-        // open Settings popup
-        var thelightbutton = document.querySelectorAll(".lights-item")[index];
-        thelightbutton.addEventListener("click", function () {
-          // opens modal
-          document.querySelector("#dialog-" + index).showModal();
-
-          // shows the next inputs after selection
-          var category_inputs = document.querySelectorAll(
-            ".category-fieldset-items input"
+          var lightSettings = document.importNode(
+            lightSettingsTemplate.content,
+            true
           );
-          var symbol_fieldset = document.querySelector(".symbol-fieldset");
-          var symbol_input = document.querySelector(".symbol-fieldset input");
-          var start_button = document.querySelector(".start-button");
-          category_inputs.forEach(function (item) {
-            item.addEventListener("click", function () {
-              symbol_fieldset.style = "display: block";
-              var current_category = this.value;
+          lightSettings.querySelector(".dialog").id = "dialog-" + index;
+          document.body.appendChild(lightSettings);
+
+          var stockInput = document.querySelector(
+            "#dialog-" + index + " input#stock"
+          );
+          var stockLabel = document.querySelector(
+            "#dialog-" + index + ' label[for="stock"]'
+          );
+          var cryptoInput = document.querySelector(
+            "#dialog-" + index + " input#crypto"
+          );
+          var cryptoLabel = document.querySelector(
+            "#dialog-" + index + ' label[for="crypto"]'
+          );
+          var symbolInput = document.querySelector(
+            "#dialog-" + index + " input#symbol"
+          );
+          var symbolLabel = document.querySelector(
+            "#dialog-" + index + ' label[for="symbol"]'
+          );
+
+          stockInput.setAttribute("id", "stock-" + index);
+          stockLabel.setAttribute("for", "stock-" + index);
+          cryptoInput.setAttribute("id", "crypto-" + index);
+          cryptoLabel.setAttribute("for", "crypto-" + index);
+          symbolInput.setAttribute("id", "symbol-" + index);
+          symbolLabel.setAttribute("for", "symbol-" + index);
+
+          // open Settings popup
+          var thelightbutton = document.querySelectorAll(".lights-item")[index];
+          thelightbutton.addEventListener("click", function () {
+            // opens modal
+            document.querySelector("#dialog-" + index).showModal();
+
+            // shows the next inputs after selection
+            var category_inputs = document.querySelectorAll(
+              ".category-fieldset-items input"
+            );
+            var symbol_fieldset = document.querySelector(".symbol-fieldset");
+            var symbol_input = document.querySelector(".symbol-fieldset input");
+            var start_button = document.querySelector(".start-button");
+            category_inputs.forEach(function (item) {
+              item.addEventListener("click", function () {
+                symbol_fieldset.style = "display: block";
+                var current_category = this.value;
+                document.querySelector(
+                  ".symbol-text"
+                ).textContent = current_category;
+              });
+            });
+
+            symbol_input.addEventListener("keyup", function () {
+              start_button.style = "display: block;";
+            });
+
+            var startButton = document.querySelector(
+              "#dialog-" + index + " .start-button"
+            );
+            startButton.addEventListener("click", function () {
+              // symbol_input.value
               document.querySelector(
-                ".symbol-text"
-              ).textContent = current_category;
+                "#light-button-" + index + " span"
+              ).textContent = symbol_input.value;
+              document.querySelector("#dialog-" + index).close();
+
+              var currentCategory = document.querySelector(
+                "#dialog-" + index + ' input[name="category"]:checked'
+              ).value;
+              var isCrypto;
+              if (currentCategory == "crypto") {
+                isCrypto = true;
+              } else {
+                isCrypto = false;
+              }
+              var symbol = symbol_input.value;
+              theLoop(light, isCrypto, symbol);
             });
           });
-
-          symbol_input.addEventListener("keyup", function () {
-            start_button.style = "display: block;";
-          });
-
-          var startButton = document.querySelector(
-            "#dialog-" + index + " .start-button"
-          );
-          startButton.addEventListener("click", function () {
-            // symbol_input.value
-            document.querySelector(
-              "#light-button-" + index + " span"
-            ).textContent = symbol_input.value;
-            document.querySelector("#dialog-" + index).close();
-
-            var currentCategory = document.querySelector(
-              "#dialog-" + index + ' input[name="category"]:checked'
-            ).value;
-            var isCrypto;
-            if (currentCategory == "crypto") {
-              isCrypto = true;
-            } else {
-              isCrypto = false;
-            }
-            var symbol = symbol_input.value;
-            theLoop(light, isCrypto, symbol);
-          });
         });
-      });
+      } else {
+        // no authentic lights found!
+      }
     });
   });
 }

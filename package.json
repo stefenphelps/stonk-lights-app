@@ -15,7 +15,6 @@
   },
   "license": "MIT",
   "description": "Setup and run your Stonklight!",
-  
   "config": {
     "forge": {
       "packagerConfig": {

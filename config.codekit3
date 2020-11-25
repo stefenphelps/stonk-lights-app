@@ -17,6 +17,19 @@
 		"oAP": "/.gitignore",
 		"oF": 0
 		},
+	"/AppBackground.png": {
+		"ft": 32768,
+		"iS": 82093,
+		"oA": 0,
+		"oAP": "/AppBackground.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"ou": "lpckwebp-none",
+		"q": 100,
+		"rq": 75
+		},
 	"/AppIcon.icns": {
 		"cB": 0,
 		"ft": 8192,
@@ -39,36 +52,428 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist": {
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am.lproj/locale.pak": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Mantle.framework/Versions/A/Resources/Info.plist",
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/am.lproj/locale.pak",
 		"oF": 0
 		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources/Info.plist": {
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar.lproj/locale.pak": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/ReactiveObjC.framework/Versions/A/Resources/Info.plist",
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ar.lproj/locale.pak",
 		"oF": 0
 		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/Info.plist": {
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg.lproj/locale.pak": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/Info.plist",
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bg.lproj/locale.pak",
 		"oF": 0
 		},
-	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt": {
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn.lproj/locale.pak": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 0,
-		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/bn.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ca.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/cs.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/da.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/de.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/el.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/en_GB.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/es_419.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/et.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fa.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fi.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fil.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/fr.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/gu.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/he.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hi.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hr.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/hu.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/id.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/it.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ja.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/kn.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ko.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lt.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/lv.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ml.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/mr.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ms.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nb.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/nl.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pl.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_BR.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/pt_PT.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ro.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ru.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sk.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sl.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sr.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sv.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/sw.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/ta.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/te.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/th.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/tr.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/uk.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/vi.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_CN.lproj/locale.pak",
+		"oF": 0
+		},
+	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj/locale.pak": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 0,
+		"oAP": "/out/StonkLights-darwin-x64/StonkLights.app/Contents/Frameworks/Electron Framework.framework/Versions/A/Resources/zh_TW.lproj/locale.pak",
 		"oF": 0
 		},
 	"/out/StonkLights-darwin-x64/StonkLights.app/Contents/Resources/app/node_modules": {
