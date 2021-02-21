@@ -24,7 +24,7 @@
         "name": "@electron-forge/publisher-github",
         "config": {
           "repository": {
-            "owner": "kelpagency",
+            "owner": "stefenphelps",
             "name": "Stonk-Lights-App"
           }
         }
