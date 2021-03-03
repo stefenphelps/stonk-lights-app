@@ -1,3 +1,5 @@
+// the main process file
+
 const { app, BrowserWindow } = require("electron");
 const path = require("path");
 
@@ -18,8 +20,8 @@ const createWindow = () => {
       devTools: false,
     },
   });
- 
-  mainWindow.setMenuBarVisibility(false)
+
+  mainWindow.setMenuBarVisibility(false);
 
   // and load the index.html of the app.
   mainWindow.loadFile(path.join(__dirname, "index.html"));
@@ -27,8 +29,6 @@ const createWindow = () => {
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
 };
-
-
 
 // This method will be called when Electron has finished
 // initialization and is ready to create browser windows.
@@ -52,5 +52,5 @@ app.on("activate", () => {
   }
 });
 
-// In this file you can include the rest of your app's specific main process
-// code. You can also put them in separate files and import them here.
+// auto update - config for this is in package.json
+require("update-electron-app")();
