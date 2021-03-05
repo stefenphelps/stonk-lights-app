@@ -23,9 +23,7 @@
   },
   "config": {
     "forge": {
-      "packagerConfig": {
-        "icon": "AppIcon.icns"
-      },
+      "packagerConfig": {},
       "publishers": {
         "name": "@electron-forge/publisher-github",
         "config": {
@@ -39,20 +37,11 @@
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "StonkLights",
-            "iconUrl": "https://www.kelp.agency/wp-content/uploads/2020/11/AppIcon.ico",
-            "setupIcon": "icon/AppIcon.ico",
-            "loadingGif": "icon/stonklight-loading.gif"
+            "name": "StonkLights"
           }
         },
         {
           "name": "@electron-forge/maker-dmg",
-          "config": {
-            "name": "StonkLights",
-            "format": "ULFO",
-            "icon": "AppIcon.icns",
-            "background": "AppBackground.png"
-          },
           "platforms": [
             "darwin"
           ]
