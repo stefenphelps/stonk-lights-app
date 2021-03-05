@@ -1,3 +1,6 @@
+/dist
+
+electron-builder.yml
 # Logs
 logs
 *.log
