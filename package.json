@@ -1,4 +1,5 @@
 {
+  "name": "StonkLights",
   "productName": "StonkLights",
   "main": "source/index.js",
   "scripts": {
@@ -10,7 +11,7 @@
     "build": "electron-builder build --mac --win --publish never",
     "deploy": "electron-builder build --mac --win --publish always"
   },
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": {
     "name": "Stefen Phelps",
     "email": "stefen@kelp.agency"
@@ -49,23 +50,35 @@
       ]
     }
   },
+  "dmg": {
+    "sign": false
+  },
+  "build": {
+    "appId": "com.stonklights.app",
+    "mac": {
+      "hardenedRuntime": true,
+      "gatekeeperAssess": false,
+      "entitlements": "build/entitlements.mac.plist",
+      "entitlementsInherit": "build/entitlements.mac.plist"
+    },
+    "afterSign": "build/notarize.js"
+  },
   "devDependencies": {
     "@electron-forge/cli": "^6.0.0-beta.54",
     "@electron-forge/maker-deb": "^6.0.0-beta.54",
     "@electron-forge/maker-rpm": "^6.0.0-beta.54",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.54",
     "@electron-forge/maker-zip": "^6.0.0-beta.54",
-    "electron-builder": "^22.10.5",
-    "electron": "^12.0.0"
+    "electron": "^12.0.0",
+    "electron-builder": "^22.10.5"
   },
-  "keywords": [],
   "dependencies": {
     "@electron-forge/maker-dmg": "^6.0.0-beta.54",
     "axios": "^0.21.1",
+    "electron-notarize": "^1.0.0",
     "electron-squirrel-startup": "^1.0.0",
     "jquery": "^3.6.0",
     "magic-home": "^2.6.1",
     "update-electron-app": "^2.0.1"
-  },
-  "name": "StonkLights"
+  }
 }
