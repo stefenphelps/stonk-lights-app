@@ -1,6 +1,7 @@
 // the main process file
 
-const { app, BrowserWindow } = require("electron");
+const electron = require("electron");
+const { app, BrowserWindow } = electron;
 const path = require("path");
 
 // Handle creating/removing shortcuts on Windows when installing/uninstalling.
@@ -16,6 +17,8 @@ const createWindow = () => {
     height: 800,
     webPreferences: {
       nodeIntegration: true,
+      contextIsolation: false,
+      enableRemoteModule: true,
       frame: false,
       devTools: false,
     },
@@ -24,7 +27,7 @@ const createWindow = () => {
   mainWindow.setMenuBarVisibility(false);
 
   // and load the index.html of the app.
-  mainWindow.loadFile(path.join(__dirname, "index.html"));
+  mainWindow.loadURL(`file://${__dirname}/index.html`);
 
   // Open the DevTools.
   mainWindow.webContents.openDevTools();
