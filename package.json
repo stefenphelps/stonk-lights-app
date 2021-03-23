@@ -75,6 +75,7 @@
   "dependencies": {
     "@electron-forge/maker-dmg": "^6.0.0-beta.54",
     "axios": "^0.21.1",
+    "dotenv": "^8.2.0",
     "electron-notarize": "^1.0.0",
     "electron-squirrel-startup": "^1.0.0",
     "jquery": "^3.6.0",

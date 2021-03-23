@@ -1,5 +1,5 @@
 // the main process file
-
+require("dotenv").config();
 const electron = require("electron");
 const { app, BrowserWindow } = electron;
 const path = require("path");

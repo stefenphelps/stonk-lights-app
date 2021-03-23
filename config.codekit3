@@ -980,6 +980,22 @@
       "oAP" : "\/dist\/StonkLights Setup 1.0.2.exe.blockmap",
       "oF" : 0
     },
+    "\/dist\/StonkLights Setup 1.0.3.exe" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights Setup 1.0.3.exe",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights Setup 1.0.3.exe.blockmap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights Setup 1.0.3.exe.blockmap",
+      "oF" : 0
+    },
     "\/dist\/StonkLights-1.0.1-mac.zip" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1026,6 +1042,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/StonkLights-1.0.2.dmg.blockmap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.3-mac.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.3-mac.zip",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.3.dmg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.3.dmg",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.3.dmg.blockmap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.3.dmg.blockmap",
       "oF" : 0
     },
     "\/dist\/win-unpacked\/chrome_100_percent.pak" : {
@@ -1624,6 +1664,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/win-unpacked\/vulkan-1.dll",
+      "oF" : 0
+    },
+    "\/electron-builder.env" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/electron-builder.env",
       "oF" : 0
     },
     "\/electron-builder.yml" : {
