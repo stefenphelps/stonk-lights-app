@@ -7,7 +7,7 @@
       "uuidString" : "5B1184D6-DD0B-4F46-B5FF-9B7FA9A098B3"
     }
   ],
-  "creatorBuild" : "34018",
+  "creatorBuild" : "34127",
   "files" : {
     "\/.gitignore" : {
       "cB" : 0,
@@ -124,6 +124,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/_CodeSignature\/CodeResources",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/CodeResources" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/CodeResources",
       "oF" : 0
     },
     "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/_CodeSignature\/CodeResources" : {
@@ -937,7 +945,7 @@
     "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar.unpacked\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
-      "oAP" : "\/build\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar.unpacked\/node_modules",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar.unpacked\/node_modules",
       "oF" : 0
     },
     "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/StonkLights.icns" : {
@@ -994,6 +1002,22 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/StonkLights Setup 1.0.3.exe.blockmap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights Setup 1.0.4.exe" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights Setup 1.0.4.exe",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights Setup 1.0.4.exe.blockmap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights Setup 1.0.4.exe.blockmap",
       "oF" : 0
     },
     "\/dist\/StonkLights-1.0.1-mac.zip" : {
@@ -1066,6 +1090,30 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/StonkLights-1.0.3.dmg.blockmap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.4-mac.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.4-mac.zip",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.4.dmg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.4.dmg",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.4.dmg.blockmap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.4.dmg.blockmap",
       "oF" : 0
     },
     "\/dist\/win-unpacked\/chrome_100_percent.pak" : {
@@ -1591,7 +1639,7 @@
     "\/dist\/win-unpacked\/resources\/app.asar.unpacked\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
-      "oAP" : "\/build\/dist\/win-unpacked\/resources\/app.asar.unpacked\/node_modules",
+      "oAP" : "\/dist\/win-unpacked\/resources\/app.asar.unpacked\/node_modules",
       "oF" : 0
     },
     "\/dist\/win-unpacked\/resources\/elevate.exe" : {
@@ -1685,7 +1733,7 @@
     "\/node_modules" : {
       "ft" : 65536,
       "oA" : 2,
-      "oAP" : "\/build\/node_modules",
+      "oAP" : "\/node_modules",
       "oF" : 0
     },
     "\/package-lock.json" : {
@@ -3890,27 +3938,30 @@
 
       ],
       "contentEntries" : [
-        "!(node_modules)\/**\/*.html",
-        "!(node_modules)\/**\/*.htm",
-        "!(node_modules)\/**\/*.shtml",
-        "!(node_modules)\/**\/*.xhtml",
-        "!(node_modules)\/**\/*.php",
-        "!(node_modules)\/**\/*.js",
-        "!(node_modules)\/**\/*.ts",
-        "!(node_modules)\/**\/*.coffee",
-        "!(node_modules)\/**\/*.erb",
-        "!(node_modules)\/**\/*.pug",
-        "!(node_modules)\/**\/*.jade",
-        "!(node_modules)\/**\/*.slim",
-        "!(node_modules)\/**\/*.haml",
-        "!(node_modules)\/**\/*.md",
-        "!(node_modules)\/**\/*.kit"
+        "**\/*.html",
+        "**\/*.htm",
+        "**\/*.shtml",
+        "**\/*.xhtml",
+        "**\/*.php",
+        "**\/*.js",
+        "**\/*.ts",
+        "**\/*.coffee",
+        "**\/*.erb",
+        "**\/*.pug",
+        "**\/*.jade",
+        "**\/*.slim",
+        "**\/*.haml",
+        "**\/*.md",
+        "**\/*.kit"
       ],
       "removeFontFace" : 0,
       "removeKeyframes" : 0,
       "removeVariables" : 0,
       "safelistEntries" : [
 
+      ],
+      "skippedEntries" : [
+        "node_modules\/**"
       ]
     },
     "rollupContext" : "",
@@ -3945,6 +3996,7 @@
     "tsNoImplicitThis" : 0,
     "tsNoImplicitUseStrict" : 0,
     "tsNoLib" : 0,
+    "tsNoPropertyAccessFromIndexSignature" : 0,
     "tsNoResolve" : 0,
     "tsNoStrictGenericChecks" : 0,
     "tsNoUncheckedIndexAccess" : 0,
