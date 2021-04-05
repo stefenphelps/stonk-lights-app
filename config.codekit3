@@ -86,6 +86,38 @@
       "sC" : 3,
       "tS" : 0
     },
+    "\/certs\/csr.csr" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/certs\/csr.csr",
+      "oF" : 0
+    },
+    "\/certs\/hardwareToken.cfg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/certs\/hardwareToken.cfg",
+      "oF" : 0
+    },
+    "\/certs\/keystore.jks" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/certs\/keystore.jks",
+      "oF" : 0
+    },
+    "\/certs\/keystore.jks.old" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/certs\/keystore.jks.old",
+      "oF" : 0
+    },
     "\/dist\/builder-debug.yml" : {
       "cB" : 0,
       "ft" : 8192,

@@ -93,3 +93,7 @@ typings/
 # Electron-Forge
 out/
 build/notarize.js
+certs/csr.csr
+certs/hardwareToken.cfg
+certs/keystore.jks
+certs/keystore.jks.old
