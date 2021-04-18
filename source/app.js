@@ -1,9 +1,10 @@
 const { Control, Discovery } = require("magic-home");
+const sleep = require("./functions/sleep.js");
 const cryptocoins = require("./functions/cryptocoins.js");
 const stock = require("./functions/stock.js");
 const stockMarket = require("./functions/stockMarket.js");
 const stonkLight = require("./functions/stonkLight.js");
-
+const Store = require("electron-store");
 var shell = require("electron").shell;
 
 //open links externally by default
@@ -19,8 +20,33 @@ var lightsContainer = document.querySelector(".lights");
 var lightSettingsTemplate = document.querySelector("#light-settings");
 var noResultsMessage = document.querySelector(".no-results");
 
-function sleep(ms) {
-  return new Promise((resolve) => setTimeout(resolve, ms));
+async function theLoop(light, crypto, symbol) {
+  var oldPrice = 0;
+  var newPrice = 0;
+  if (crypto) {
+    while (crypto) {
+      // first loop
+      if (oldPrice == 0) {
+        oldPrice = await cryptocoins.getPrice(symbol);
+      } else {
+        await sleep(31000);
+        // every loop after first
+        newPrice = await cryptocoins.getPrice(symbol);
+        await stonkLight.colorChange(light, newPrice, oldPrice);
+        await sleep(31000);
+        oldPrice = await cryptocoins.getPrice(symbol);
+      }
+    }
+  } else {
+    while (stockMarket.isOpen()) {
+      // wait 5 seconds before checking price each time
+      await sleep(5000);
+      var price = await stock.getPrice(symbol);
+      var currentPrice = price[0];
+      var previousClosePrice = price[1];
+      await stonkLight.colorChange(light, currentPrice, previousClosePrice);
+    }
+  }
 }
 
 function discover() {
@@ -37,6 +63,10 @@ function discover() {
     }
 
     devices.forEach(function (device, index) {
+      // create persistent data store for light settings
+      const store = new Store();
+      const deviceId = device.id;
+
       // turn light on and initialize stonks
       var light = new Control(device.address);
       light.setPower(true).then((success) => {
@@ -77,6 +107,13 @@ function discover() {
         symbolInput.setAttribute("id", "symbol-" + index);
         symbolLabel.setAttribute("for", "symbol-" + index);
 
+        if (store.get(deviceId + "-symbol")) {
+          var savedSymbol = store.get(deviceId + "-symbol");
+          document.querySelector(
+            "#light-button-" + index + " span"
+          ).textContent = savedSymbol;
+        }
+
         // open Settings popup
         var thelightbutton = document.querySelectorAll(".lights-item")[index];
         thelightbutton.addEventListener("click", function () {
@@ -91,6 +128,17 @@ function discover() {
           var symbol_input = document.querySelector(".symbol-fieldset input");
           var start_button = document.querySelector(".start-button");
           category_inputs.forEach(function (item) {
+            if (store.get(deviceId + "-category")) {
+              symbol_fieldset.style = "display: block";
+              var current_category = store.get(deviceId + "-category");
+              $(":radio[value='" + current_category + "']").attr(
+                "checked",
+                true
+              );
+              document.querySelector(
+                ".symbol-text"
+              ).textContent = current_category;
+            }
             item.addEventListener("click", function () {
               symbol_fieldset.style = "display: block";
               var current_category = this.value;
@@ -100,7 +148,15 @@ function discover() {
             });
           });
 
+          if (store.get(deviceId + "-symbol")) {
+            var savedSymbol = store.get(deviceId + "-symbol");
+            symbol_input.value = savedSymbol;
+            start_button.style = "display: block;";
+          }
           symbol_input.addEventListener("keyup", function () {
+            // save symbol setting to data store
+            store.set(deviceId + "-symbol", this.value);
+            // show start button
             start_button.style = "display: block;";
           });
 
@@ -117,6 +173,11 @@ function discover() {
             var currentCategory = document.querySelector(
               "#dialog-" + index + ' input[name="category"]:checked'
             ).value;
+
+            // save setting to data store
+            store.set(deviceId + "-category", currentCategory);
+
+            // start the loop/main function
             var isCrypto;
             if (currentCategory == "crypto") {
               isCrypto = true;
@@ -140,32 +201,3 @@ var retryButton = document.querySelector(".no-results-retry");
 retryButton.addEventListener("click", function () {
   discover();
 });
-
-async function theLoop(light, crypto, symbol) {
-  var oldPrice = 0;
-  var newPrice = 0;
-  if (crypto) {
-    while (crypto) {
-      // first loop
-      if (oldPrice == 0) {
-        oldPrice = await cryptocoins.getPrice(symbol);
-      } else {
-        await sleep(31000);
-        // every loop after first
-        newPrice = await cryptocoins.getPrice(symbol);
-        await stonkLight.colorChange(light, newPrice, oldPrice);
-        await sleep(31000);
-        oldPrice = await cryptocoins.getPrice(symbol);
-      }
-    }
-  } else {
-    while (stockMarket.isOpen()) {
-      // wait 5 seconds before checking price each time
-      await sleep(5000);
-      var price = await stock.getPrice(symbol);
-      var currentPrice = price[0];
-      var previousClosePrice = price[1];
-      await stonkLight.colorChange(light, currentPrice, previousClosePrice);
-    }
-  }
-}
