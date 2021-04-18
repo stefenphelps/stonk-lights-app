@@ -153,26 +153,19 @@ async function theLoop(light, crypto, symbol) {
         await sleep(31000);
         // every loop after first
         newPrice = await cryptocoins.getPrice(symbol);
-        console.log({ newPrice });
         await stonkLight.colorChange(light, newPrice, oldPrice);
         await sleep(31000);
         oldPrice = await cryptocoins.getPrice(symbol);
-        console.log({ oldPrice });
       }
     }
   } else {
     while (stockMarket.isOpen()) {
-      // first loop
-      if (oldPrice == 0) {
-        oldPrice = await stock.getPrice(symbol);
-      } else {
-        // every loop after first
-        await sleep(3000);
-        newPrice = await stock.getPrice(symbol);
-        await stonkLight.colorChange(light, newPrice, oldPrice);
-        await sleep(3000);
-        oldPrice = await stock.getPrice(symbol);
-      }
+      // wait 5 seconds before checking price each time
+      await sleep(5000);
+      var price = await stock.getPrice(symbol);
+      var currentPrice = price[0];
+      var previousClosePrice = price[1];
+      await stonkLight.colorChange(light, currentPrice, previousClosePrice);
     }
   }
 }
