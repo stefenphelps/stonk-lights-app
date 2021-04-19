@@ -1,13 +1,15 @@
-async function getPrice(crypto_symbol) {
+const axios = require("axios").default;
+
+const getPrice = async function (crypto_symbol) {
   try {
-    var response = await fetch(
+    const response = await axios.get(
       "https://api.cryptonator.com/api/ticker/" + crypto_symbol + "-usd"
     );
-    var price = await response.data.ticker.price;
+    var price = response.data.ticker.price;
     return price;
   } catch (error) {
     console.log(error);
   }
-}
+};
 
 exports.getPrice = getPrice;

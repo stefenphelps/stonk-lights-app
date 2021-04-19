@@ -1,17 +1,20 @@
 const { Control, Discovery } = require("magic-home");
-const sleep = require("./functions/sleep.js");
 const cryptocoins = require("./functions/cryptocoins.js");
 const stock = require("./functions/stock.js");
 const stockMarket = require("./functions/stockMarket.js");
 const stonkLight = require("./functions/stonkLight.js");
 const Store = require("electron-store");
-var shell = require("electron").shell;
+const shell = require("electron").shell;
 
 //open links externally by default
 $(document).on("click", 'a[href^="http"]', function (event) {
   event.preventDefault();
   shell.openExternal(this.href);
 });
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
 
 // UI Variables
 var loadingIndicator = document.querySelector(".scanning");
@@ -118,15 +121,16 @@ function discover() {
         var thelightbutton = document.querySelectorAll(".lights-item")[index];
         thelightbutton.addEventListener("click", function () {
           // opens modal
-          document.querySelector("#dialog-" + index).showModal();
+          var modal = document.querySelector("#dialog-" + index);
+          modal.showModal();
 
           // shows the next inputs after selection
-          var category_inputs = document.querySelectorAll(
+          var category_inputs = modal.querySelectorAll(
             ".category-fieldset-items input"
           );
-          var symbol_fieldset = document.querySelector(".symbol-fieldset");
-          var symbol_input = document.querySelector(".symbol-fieldset input");
-          var start_button = document.querySelector(".start-button");
+          var symbol_fieldset = modal.querySelector(".symbol-fieldset");
+          var symbol_input = modal.querySelector(".symbol-fieldset input");
+          var start_button = modal.querySelector(".start-button");
           category_inputs.forEach(function (item) {
             if (store.get(deviceId + "-category")) {
               symbol_fieldset.style = "display: block";
@@ -135,14 +139,14 @@ function discover() {
                 "checked",
                 true
               );
-              document.querySelector(
+              modal.querySelector(
                 ".symbol-text"
               ).textContent = current_category;
             }
             item.addEventListener("click", function () {
               symbol_fieldset.style = "display: block";
               var current_category = this.value;
-              document.querySelector(
+              modal.querySelector(
                 ".symbol-text"
               ).textContent = current_category;
             });
@@ -168,7 +172,7 @@ function discover() {
             document.querySelector(
               "#light-button-" + index + " span"
             ).textContent = symbol_input.value;
-            document.querySelector("#dialog-" + index).close();
+            modal.close();
 
             var currentCategory = document.querySelector(
               "#dialog-" + index + ' input[name="category"]:checked'
