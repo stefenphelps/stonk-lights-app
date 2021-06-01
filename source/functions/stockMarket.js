@@ -5,9 +5,9 @@ function isOpen() {
   var currentHour = currentDate.getUTCHours();
   var currentMinute = currentDate.getUTCMinutes();
 
-  var stockMarketOpen = 13;
-  var stockMarketCloseHour = 20;
-  var stockMarketCloseMinute = 30;
+  var stockMarketOpen = 8;
+  var stockMarketCloseHour = 24;
+  var stockMarketCloseMinute = 00;
 
   // weekdays between 9am and 4:30pm EST
   if (currentDay >= 1 && currentDay <= 5) {
