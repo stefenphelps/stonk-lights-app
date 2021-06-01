@@ -8,8 +8,8 @@
     "lint": "echo \"No linting configured\"",
     "make": "electron-forge make",
     "start": "electron-forge start",
-    "build": "electron-builder build --mac --win --publish never",
-    "deploy": "electron-builder build --mac --win --publish always"
+    "build": "electron-builder build --mac --win --linux --publish never",
+    "deploy": "electron-builder build --mac --win --linux --publish always"
   },
   "version": "1.0.6",
   "author": {
@@ -46,6 +46,15 @@
           "platforms": [
             "darwin"
           ]
+        },
+        {
+          "name": "@electron-forge/maker-deb",
+          "config": {
+            "options": {
+              "maintainer": "Stefen Phelps",
+              "homepage": "https://stonklights.com"
+            }
+          }
         }
       ]
     }

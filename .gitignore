@@ -97,3 +97,4 @@ certs/csr.csr
 certs/hardwareToken.cfg
 certs/keystore.jks
 certs/keystore.jks.old
+certs/user.crt
