@@ -2714,55 +2714,17 @@
       "ft" : 64,
       "ma" : 0,
       "mi" : 1,
-      "oA" : 0,
+      "oA" : 1,
       "oAP" : "\/source\/app-min.js",
-      "oF" : 0,
+      "oF" : 1,
       "sC" : 3,
       "tS" : 0
     },
-    "\/source\/functions\/cryptocoins.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/source\/functions\/cryptocoins-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/source\/functions\/stock.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/source\/functions\/stock-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/source\/functions\/stockMarket.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/source\/functions\/stockMarket-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
-    },
-    "\/source\/functions\/stonkLight.js" : {
-      "bF" : 0,
-      "ft" : 64,
-      "ma" : 0,
-      "mi" : 1,
-      "oA" : 0,
-      "oAP" : "\/source\/functions\/stonkLight-min.js",
-      "oF" : 0,
-      "sC" : 3,
-      "tS" : 0
+    "\/source\/functions" : {
+      "ft" : 65536,
+      "oA" : 1,
+      "oAP" : "\/source\/functions",
+      "oF" : 0
     },
     "\/source\/index.css" : {
       "aP" : 1,
@@ -4911,7 +4873,7 @@
       "ENVIRONMENT:::$NODE_ENV"
     ],
     "rollupTreeshakingEnabled" : 1,
-    "skippedFoldersString" : "log, _logs, logs, _cache, cache, .idea, \/storage\/framework\/sessions, node_modules",
+    "skippedFoldersString" : "logs,cache,.idea,\/storage\/framework\/sessions,_logs,log,\/source\/functions,node_modules,_cache",
     "sourceFolderName" : "source",
     "susyVersion" : 3,
     "tsAllowSyntheticDefaultImports" : 0,

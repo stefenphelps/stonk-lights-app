@@ -20,7 +20,7 @@ const createWindow = () => {
       contextIsolation: false,
       enableRemoteModule: true,
       frame: false,
-      devTools: false,
+      devTools: true,
     },
   });
 

@@ -6,7 +6,7 @@ const stonkLight = require("./functions/stonkLight.js");
 const Store = require("electron-store");
 const shell = require("electron").shell;
 
-//open links externally by default
+// open links externally by default
 $(document).on("click", 'a[href^="http"]', function (event) {
   event.preventDefault();
   shell.openExternal(this.href);
@@ -26,6 +26,9 @@ var noResultsMessage = document.querySelector(".no-results");
 async function theLoop(light, crypto, symbol) {
   var oldPrice = 0;
   var newPrice = 0;
+  document.querySelector(
+    'button[data-ip="' + light._address + '"] .lights-item-price'
+  ).textContent = newPrice;
   if (crypto) {
     while (crypto) {
       // first loop
@@ -35,6 +38,9 @@ async function theLoop(light, crypto, symbol) {
         await sleep(31000);
         // every loop after first
         newPrice = await cryptocoins.getPrice(symbol);
+        document.querySelector(
+          'button[data-ip="' + light._address + '"] .lights-item-price'
+        ).textContent = newPrice;
         await stonkLight.colorChange(light, newPrice, oldPrice);
         await sleep(31000);
         oldPrice = await cryptocoins.getPrice(symbol);
@@ -47,6 +53,9 @@ async function theLoop(light, crypto, symbol) {
       var price = await stock.getPrice(symbol);
       var currentPrice = price[0];
       var previousClosePrice = price[1];
+      document.querySelector(
+        'button[data-ip="' + light._address + '"] .lights-item-price'
+      ).textContent = currentPrice;
       await stonkLight.colorChange(light, currentPrice, previousClosePrice);
     }
   }
@@ -74,7 +83,9 @@ function discover() {
       var light = new Control(device.address);
       light.setPower(true).then((success) => {
         var lightButton = lightTemplate.content.cloneNode(true);
-        lightButton.querySelector(".lights-item").id = "light-button-" + index;
+        lightButton.querySelector(".lights-item").id =
+          "light-button-" + deviceId;
+        lightButton.querySelector(".lights-item").dataset.ip = device.address;
         lightsContainer.appendChild(lightButton);
 
         var lightSettings = document.importNode(
@@ -113,7 +124,7 @@ function discover() {
         if (store.get(deviceId + "-symbol")) {
           var savedSymbol = store.get(deviceId + "-symbol");
           document.querySelector(
-            "#light-button-" + index + " span"
+            "#light-button-" + deviceId + " .lights-item-symbol"
           ).textContent = savedSymbol;
         }
 
@@ -139,16 +150,14 @@ function discover() {
                 "checked",
                 true
               );
-              modal.querySelector(
-                ".symbol-text"
-              ).textContent = current_category;
+              modal.querySelector(".symbol-text").textContent =
+                current_category;
             }
             item.addEventListener("click", function () {
               symbol_fieldset.style = "display: block";
               var current_category = this.value;
-              modal.querySelector(
-                ".symbol-text"
-              ).textContent = current_category;
+              modal.querySelector(".symbol-text").textContent =
+                current_category;
             });
           });
 
@@ -170,7 +179,7 @@ function discover() {
           startButton.addEventListener("click", function () {
             // symbol_input.value
             document.querySelector(
-              "#light-button-" + index + " span"
+              "#light-button-" + deviceId + " span"
             ).textContent = symbol_input.value;
             modal.close();
 

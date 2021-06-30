@@ -1048,7 +1048,8 @@ hr {
   margin: 1rem;
   filter: drop-shadow(0px 0px 18px rgba(104, 89, 234, 0.875));
 }
-.app-page .lights-item span {
+.app-page .lights-item .lights-item-price,
+.app-page .lights-item .lights-item-symbol {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1057,6 +1058,9 @@ hr {
   padding: 1.5rem;
   text-transform: uppercase;
   font-weight: bold;
+}
+.app-page .lights-item .lights-item-price {
+  margin-top: 1.25rem;
 }
 .app-page .lights-item:hover,
 .app-page .lights-item:focus {
