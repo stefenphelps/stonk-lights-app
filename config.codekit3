@@ -126,6 +126,162 @@
       "oAP" : "\/certs\/user.crt",
       "oF" : 0
     },
+    "\/dist\/.icon-set\/icon_48x48.png" : {
+      "ft" : 32768,
+      "iS" : 3095,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/icon_48x48.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/icon_64x64.png" : {
+      "ft" : 32768,
+      "iS" : 4536,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/icon_64x64.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_16x16.png" : {
+      "ft" : 32768,
+      "iS" : 840,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_16x16.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_16x16@2x.png" : {
+      "ft" : 32768,
+      "iS" : 2122,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_16x16@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_32x32.png" : {
+      "ft" : 32768,
+      "iS" : 2178,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_32x32.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_32x32@2x.png" : {
+      "ft" : 32768,
+      "iS" : 5367,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_32x32@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_128x128.png" : {
+      "ft" : 32768,
+      "iS" : 12394,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_128x128.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_128x128@2x.png" : {
+      "ft" : 32768,
+      "iS" : 28226,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_128x128@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_256x256.png" : {
+      "ft" : 32768,
+      "iS" : 28226,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_256x256.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_256x256@2x.png" : {
+      "ft" : 32768,
+      "iS" : 60776,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_256x256@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_512x512.png" : {
+      "ft" : 32768,
+      "iS" : 60776,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_512x512.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/dist\/.icon-set\/result.iconset\/icon_512x512@2x.png" : {
+      "ft" : 32768,
+      "iS" : 125751,
+      "oA" : 0,
+      "oAP" : "\/dist\/.icon-set\/result.iconset\/icon_512x512@2x.png",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "oT" : 1,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
     "\/dist\/builder-debug.yml" : {
       "cB" : 0,
       "ft" : 8192,
@@ -140,6 +296,14 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/builder-effective-config.yaml",
+      "oF" : 0
+    },
+    "\/dist\/latest-linux.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/latest-linux.yml",
       "oF" : 0
     },
     "\/dist\/latest-mac.yml" : {
@@ -158,756 +322,1424 @@
       "oAP" : "\/dist\/latest.yml",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework" : {
+    "\/dist\/linux-unpacked\/chrome_100_percent.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework",
+      "oAP" : "\/dist\/linux-unpacked\/chrome_100_percent.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Helpers\/chrome_crashpad_handler" : {
+    "\/dist\/linux-unpacked\/chrome_200_percent.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Helpers\/chrome_crashpad_handler",
+      "oAP" : "\/dist\/linux-unpacked\/chrome_200_percent.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libEGL.dylib" : {
+    "\/dist\/linux-unpacked\/chrome-sandbox" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libEGL.dylib",
+      "oAP" : "\/dist\/linux-unpacked\/chrome-sandbox",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib" : {
+    "\/dist\/linux-unpacked\/icudtl.dat" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib",
+      "oAP" : "\/dist\/linux-unpacked\/icudtl.dat",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libGLESv2.dylib" : {
+    "\/dist\/linux-unpacked\/libEGL.so" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libGLESv2.dylib",
+      "oAP" : "\/dist\/linux-unpacked\/libEGL.so",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libEGL.dylib" : {
+    "\/dist\/linux-unpacked\/libffmpeg.so" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libEGL.dylib",
+      "oAP" : "\/dist\/linux-unpacked\/libffmpeg.so",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libGLESv2.dylib" : {
+    "\/dist\/linux-unpacked\/libGLESv2.so" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libGLESv2.dylib",
+      "oAP" : "\/dist\/linux-unpacked\/libGLESv2.so",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libvk_swiftshader.dylib" : {
+    "\/dist\/linux-unpacked\/libvk_swiftshader.so" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libvk_swiftshader.dylib",
+      "oAP" : "\/dist\/linux-unpacked\/libvk_swiftshader.so",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/vk_swiftshader_icd.json" : {
+    "\/dist\/linux-unpacked\/libvulkan.so.1" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/libvulkan.so.1",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/LICENSE.electron.txt" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/LICENSE.electron.txt",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/LICENSES.chromium.html" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/LICENSES.chromium.html",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/am.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/am.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ar.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ar.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/bg.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/bg.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/bn.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/bn.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ca.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ca.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/cs.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/cs.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/da.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/da.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/de.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/de.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/el.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/el.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/en-GB.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/en-GB.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/en-US.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/en-US.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/es-419.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/es-419.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/es.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/es.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/et.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/et.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/fa.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/fa.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/fi.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/fi.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/fil.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/fil.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/fr.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/fr.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/gu.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/gu.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/he.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/he.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/hi.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/hi.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/hr.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/hr.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/hu.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/hu.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/id.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/id.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/it.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/it.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ja.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ja.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/kn.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/kn.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ko.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ko.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/lt.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/lt.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/lv.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/lv.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ml.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ml.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/mr.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/mr.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ms.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ms.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/nb.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/nb.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/nl.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/nl.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/pl.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/pl.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/pt-BR.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/pt-BR.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/pt-PT.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/pt-PT.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ro.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ro.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ru.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ru.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/sk.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/sk.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/sl.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/sl.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/sr.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/sr.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/sv.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/sv.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/sw.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/sw.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/ta.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/ta.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/te.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/te.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/th.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/th.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/tr.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/tr.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/uk.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/uk.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/vi.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/vi.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/zh-CN.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/zh-CN.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/locales\/zh-TW.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/locales\/zh-TW.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/resources.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/resources.pak",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/resources\/app.asar" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/resources\/app.asar",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/resources\/app.asar.unpacked\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/dist\/linux-unpacked\/resources\/app.asar.unpacked\/node_modules",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/snapshot_blob.bin" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/snapshot_blob.bin",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/stonklights" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/stonklights",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/swiftshader\/libEGL.so" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/swiftshader\/libEGL.so",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/swiftshader\/libGLESv2.so" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/swiftshader\/libGLESv2.so",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/v8_context_snapshot.bin" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/linux-unpacked\/v8_context_snapshot.bin",
+      "oF" : 0
+    },
+    "\/dist\/linux-unpacked\/vk_swiftshader_icd.json" : {
       "ft" : 524288,
       "oA" : 1,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/vk_swiftshader_icd-min.json",
+      "oAP" : "\/dist\/linux-unpacked\/vk_swiftshader_icd-min.json",
       "oF" : 0,
       "oO" : 1,
       "oS" : 1
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/am.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/am.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ar.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ar.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bg.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bg.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bn.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bn.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Electron Framework",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ca.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Helpers\/chrome_crashpad_handler" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ca.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Helpers\/chrome_crashpad_handler",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_100_percent.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libEGL.dylib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_100_percent.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libEGL.dylib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_200_percent.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_200_percent.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libffmpeg.dylib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/cs.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libGLESv2.dylib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/cs.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libGLESv2.dylib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/da.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libEGL.dylib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/da.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libEGL.dylib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/de.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libGLESv2.dylib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/de.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libswiftshader_libGLESv2.dylib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/el.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libvk_swiftshader.dylib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/el.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/libvk_swiftshader.dylib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en_GB.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/vk_swiftshader_icd.json" : {
+      "ft" : 524288,
+      "oA" : 1,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Libraries\/vk_swiftshader_icd-min.json",
+      "oF" : 0,
+      "oO" : 1,
+      "oS" : 1
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/am.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/am.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ar.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ar.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bg.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bg.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bn.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/bn.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ca.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ca.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_100_percent.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_100_percent.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_200_percent.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/chrome_200_percent.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/cs.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/cs.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/da.lproj\/locale.pak" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/da.lproj\/locale.pak",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/de.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en_GB.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/de.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/el.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/el.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es_419.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en_GB.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es_419.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en_GB.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/en.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/et.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es_419.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/et.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es_419.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fa.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fa.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/es.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fi.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/et.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fi.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/et.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fil.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fa.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fil.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fa.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fr.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fi.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fr.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fi.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/gu.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fil.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/gu.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fil.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/he.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fr.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/he.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/fr.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hi.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/gu.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hi.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/gu.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hr.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/he.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hr.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/he.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hu.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hi.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hu.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hi.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/icudtl.dat" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hr.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/icudtl.dat",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hr.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/id.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hu.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/id.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/hu.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/icudtl.dat" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/icudtl.dat",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/it.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/id.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/it.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/id.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ja.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ja.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/kn.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/it.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/kn.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/it.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ko.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ja.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ko.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ja.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lt.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/kn.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lt.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/kn.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lv.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ko.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lv.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ko.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/MainMenu.nib" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lt.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/MainMenu.nib",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lt.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ml.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lv.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ml.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/lv.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/mr.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/MainMenu.nib" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/mr.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/MainMenu.nib",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ms.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ml.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ms.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ml.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nb.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/mr.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nb.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/mr.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nl.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ms.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nl.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ms.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pl.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nb.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pl.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nb.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_BR.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nl.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_BR.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/nl.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_PT.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pl.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_PT.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pl.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/resources.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_BR.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/resources.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_BR.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ro.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_PT.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ro.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/pt_PT.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ru.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/resources.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ru.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/resources.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sk.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ro.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sk.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ro.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sl.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ru.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sl.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ru.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sr.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sk.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sr.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sk.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sv.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sl.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sv.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sl.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sw.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sr.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sw.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sr.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ta.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sv.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ta.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sv.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/te.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sw.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/te.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/sw.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/th.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ta.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/th.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/ta.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/tr.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/te.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/tr.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/te.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/uk.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/th.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/uk.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/th.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/v8_context_snapshot.x86_64.bin" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/tr.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/v8_context_snapshot.x86_64.bin",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/tr.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/vi.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/uk.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/vi.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/uk.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_CN.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/v8_context_snapshot.x86_64.bin" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_CN.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/v8_context_snapshot.x86_64.bin",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_TW.lproj\/locale.pak" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/vi.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_TW.lproj\/locale.pak",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/vi.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (GPU).app\/Contents\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_CN.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (GPU).app\/Contents\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_CN.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (GPU).app\/Contents\/MacOS\/Electron Helper (GPU)" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_TW.lproj\/locale.pak" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (GPU).app\/Contents\/MacOS\/Electron Helper (GPU)",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Electron Framework.framework\/Versions\/A\/Resources\/zh_TW.lproj\/locale.pak",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (GPU).app\/Contents\/PkgInfo" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (GPU).app\/Contents\/PkgInfo",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Plugin).app\/Contents\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Plugin).app\/Contents\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Plugin).app\/Contents\/MacOS\/Electron Helper (Plugin)" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Resources\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Plugin).app\/Contents\/MacOS\/Electron Helper (Plugin)",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Resources\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Plugin).app\/Contents\/PkgInfo" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Plugin).app\/Contents\/PkgInfo",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Renderer).app\/Contents\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/ReactiveObjC" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Renderer).app\/Contents\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/ReactiveObjC",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Renderer).app\/Contents\/MacOS\/Electron Helper (Renderer)" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/Resources\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Renderer).app\/Contents\/MacOS\/Electron Helper (Renderer)",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/Resources\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Renderer).app\/Contents\/PkgInfo" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper (Renderer).app\/Contents\/PkgInfo",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper.app\/Contents\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper.app\/Contents\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper.app\/Contents\/MacOS\/Electron Helper" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/ShipIt" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper.app\/Contents\/MacOS\/Electron Helper",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/ShipIt",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper.app\/Contents\/PkgInfo" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Electron Helper.app\/Contents\/PkgInfo",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Mantle",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Resources\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Mantle.framework\/Versions\/A\/Resources\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/ReactiveObjC" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/MacOS\/StonkLights Helper (GPU)" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/ReactiveObjC",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/MacOS\/StonkLights Helper (GPU)",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/Resources\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/PkgInfo" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/ReactiveObjC.framework\/Versions\/A\/Resources\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (GPU).app\/Contents\/PkgInfo",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/ShipIt" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Resources\/ShipIt",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/MacOS\/StonkLights Helper (Plugin)" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Frameworks\/Squirrel.framework\/Versions\/A\/Squirrel",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/MacOS\/StonkLights Helper (Plugin)",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Info.plist" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/PkgInfo" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Info.plist",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Plugin).app\/Contents\/PkgInfo",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/MacOS\/Electron" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/_CodeSignature\/CodeResources" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/MacOS\/Electron",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/_CodeSignature\/CodeResources",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/PkgInfo" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/Info.plist" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/PkgInfo",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/Info.plist",
       "oF" : 0
     },
-    "\/dist\/mac\/Electron.app\/Contents\/Resources\/electron.icns" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/MacOS\/StonkLights Helper (Renderer)" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/Electron.app\/Contents\/Resources\/electron.icns",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/MacOS\/StonkLights Helper (Renderer)",
       "oF" : 0
     },
-    "\/dist\/mac\/LICENSE" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/PkgInfo" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/LICENSE",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper (Renderer).app\/Contents\/PkgInfo",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/_CodeSignature\/CodeResources" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/_CodeSignature\/CodeResources",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/Info.plist" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/Info.plist",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/MacOS\/StonkLights Helper" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/MacOS\/StonkLights Helper",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/PkgInfo" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Frameworks\/StonkLights Helper.app\/Contents\/PkgInfo",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Info.plist" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Info.plist",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/MacOS\/StonkLights" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/MacOS\/StonkLights",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/PkgInfo" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/PkgInfo",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app-update.yml" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app-update.yml",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar",
+      "oF" : 0
+    },
+    "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar.unpacked\/node_modules" : {
+      "ft" : 65536,
+      "oA" : 2,
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/app.asar.unpacked\/node_modules",
       "oF" : 0
     },
-    "\/dist\/mac\/LICENSES.chromium.html" : {
+    "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/StonkLights.icns" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/dist\/mac\/LICENSES.chromium.html",
+      "oAP" : "\/dist\/mac\/StonkLights.app\/Contents\/Resources\/StonkLights.icns",
       "oF" : 0
     },
     "\/dist\/StonkLights Setup 1.0.1.exe" : {
@@ -1004,6 +1836,38 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/StonkLights Setup 1.0.6.exe.blockmap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights Setup 1.0.7.exe" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights Setup 1.0.7.exe",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights Setup 1.0.7.exe.blockmap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights Setup 1.0.7.exe.blockmap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights_1.0.6_amd64.snap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights_1.0.6_amd64.snap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights_1.0.7_amd64.snap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights_1.0.7_amd64.snap",
       "oF" : 0
     },
     "\/dist\/StonkLights-1.0.1-mac.zip" : {
@@ -1134,6 +1998,14 @@
       "oAP" : "\/dist\/StonkLights-1.0.6-mac.zip",
       "oF" : 0
     },
+    "\/dist\/StonkLights-1.0.6.AppImage" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.6.AppImage",
+      "oF" : 0
+    },
     "\/dist\/StonkLights-1.0.6.dmg" : {
       "cB" : 0,
       "ft" : 8192,
@@ -1148,6 +2020,38 @@
       "hM" : 0,
       "oA" : 0,
       "oAP" : "\/dist\/StonkLights-1.0.6.dmg.blockmap",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.7-mac.zip" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.7-mac.zip",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.7.AppImage" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.7.AppImage",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.7.dmg" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.7.dmg",
+      "oF" : 0
+    },
+    "\/dist\/StonkLights-1.0.7.dmg.blockmap" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/dist\/StonkLights-1.0.7.dmg.blockmap",
       "oF" : 0
     },
     "\/dist\/win-unpacked\/chrome_100_percent.pak" : {
