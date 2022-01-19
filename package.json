@@ -73,23 +73,23 @@
     "afterSign": "build/notarize.js"
   },
   "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.57",
-    "@electron-forge/maker-deb": "^6.0.0-beta.57",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.57",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.57",
-    "@electron-forge/maker-zip": "^6.0.0-beta.57",
-    "electron": "^13.1.4",
-    "electron-builder": "^22.11.7"
+    "@electron-forge/cli": "^6.0.0-beta.63",
+    "@electron-forge/maker-deb": "^6.0.0-beta.63",
+    "@electron-forge/maker-rpm": "^6.0.0-beta.63",
+    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+    "@electron-forge/maker-zip": "^6.0.0-beta.63",
+    "electron": "^16.0.7",
+    "electron-builder": "^22.14.5"
   },
   "dependencies": {
-    "@electron-forge/maker-dmg": "^6.0.0-beta.57",
-    "axios": "^0.21.1",
-    "dotenv": "^10.0.0",
-    "electron-notarize": "^1.0.0",
+    "@electron-forge/maker-dmg": "^6.0.0-beta.63",
+    "axios": "^0.25.0",
+    "dotenv": "^14.2.0",
+    "electron-notarize": "^1.1.1",
     "electron-squirrel-startup": "^1.0.0",
-    "electron-store": "^8.0.0",
+    "electron-store": "^8.0.1",
     "jquery": "^3.6.0",
-    "magic-home": "^2.6.1",
+    "magic-home": "^2.7.1",
     "update-electron-app": "^2.0.1"
   }
 }
