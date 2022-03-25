@@ -1,95 +1,95 @@
 {
-  "name": "StonkLights",
-  "productName": "StonkLights",
-  "main": "source/index.js",
-  "scripts": {
-    "package": "electron-forge package",
-    "publish": "electron-forge publish",
-    "lint": "echo \"No linting configured\"",
-    "make": "electron-forge make",
-    "start": "electron-forge start",
-    "build": "electron-builder build --mac --win --linux --publish never",
-    "deploy": "electron-builder build --mac --win --linux --publish always"
-  },
-  "version": "1.0.7",
-  "author": {
-    "name": "Stefen Phelps",
-    "email": "stefen@kelp.agency"
-  },
-  "license": "MIT",
-  "description": "Setup and run your Stonklight!",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/stefenphelps/Stonk-Lights-App.git"
-  },
-  "config": {
-    "forge": {
-      "packagerConfig": {},
-      "publishers": {
-        "name": "@electron-forge/publisher-github",
-        "config": {
-          "repository": {
-            "owner": "stefenphelps",
-            "name": "Stonk-Lights-App"
-          }
-        }
-      },
-      "makers": [
-        {
-          "name": "@electron-forge/maker-squirrel",
-          "config": {
-            "name": "StonkLights"
-          }
-        },
-        {
-          "name": "@electron-forge/maker-dmg",
-          "platforms": [
-            "darwin"
-          ]
-        },
-        {
-          "name": "@electron-forge/maker-deb",
-          "config": {
-            "options": {
-              "maintainer": "Stefen Phelps",
-              "homepage": "https://stonklights.com"
-            }
-          }
-        }
-      ]
-    }
-  },
-  "dmg": {
-    "sign": false
-  },
-  "build": {
-    "appId": "com.stonklights.app",
-    "mac": {
-      "hardenedRuntime": true,
-      "gatekeeperAssess": false,
-      "entitlements": "build/entitlements.mac.plist",
-      "entitlementsInherit": "build/entitlements.mac.plist"
-    },
-    "afterSign": "build/notarize.js"
-  },
-  "devDependencies": {
-    "@electron-forge/cli": "^6.0.0-beta.63",
-    "@electron-forge/maker-deb": "^6.0.0-beta.63",
-    "@electron-forge/maker-rpm": "^6.0.0-beta.63",
-    "@electron-forge/maker-squirrel": "^6.0.0-beta.63",
-    "@electron-forge/maker-zip": "^6.0.0-beta.63",
-    "electron": "^16.0.7",
-    "electron-builder": "^22.14.5"
-  },
-  "dependencies": {
-    "@electron-forge/maker-dmg": "^6.0.0-beta.63",
-    "axios": "^0.25.0",
-    "dotenv": "^14.2.0",
-    "electron-notarize": "^1.1.1",
-    "electron-squirrel-startup": "^1.0.0",
-    "electron-store": "^8.0.1",
-    "jquery": "^3.6.0",
-    "magic-home": "^2.7.1",
-    "update-electron-app": "^2.0.1"
-  }
+	"name": "stonk-lights",
+	"productName": "StonkLights",
+	"main": "source/index.js",
+	"scripts": {
+		"package": "electron-forge package",
+		"publish": "electron-forge publish",
+		"lint": "echo \"No linting configured\"",
+		"make": "electron-forge make",
+		"start": "electron-forge start",
+		"build": "electron-builder build --mac --win --linux --publish never",
+		"deploy": "electron-builder build --mac --win --linux --publish always"
+	},
+	"version": "1.0.7",
+	"author": {
+		"name": "Stefen Phelps",
+		"email": "stefen@kelp.agency"
+	},
+	"license": "MIT",
+	"description": "Setup and run your Stonklight!",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stefenphelps/Stonk-Lights-App.git"
+	},
+	"config": {
+		"forge": {
+			"packagerConfig": {},
+			"publishers": {
+				"name": "@electron-forge/publisher-github",
+				"config": {
+					"repository": {
+						"owner": "stefenphelps",
+						"name": "Stonk-Lights-App"
+					}
+				}
+			},
+			"makers": [
+				{
+					"name": "@electron-forge/maker-squirrel",
+					"config": {
+						"name": "StonkLights"
+					}
+				},
+				{
+					"name": "@electron-forge/maker-dmg",
+					"platforms": [
+						"darwin"
+					]
+				},
+				{
+					"name": "@electron-forge/maker-deb",
+					"config": {
+						"options": {
+							"maintainer": "Stefen Phelps",
+							"homepage": "https://stonklights.com"
+						}
+					}
+				}
+			]
+		}
+	},
+	"dmg": {
+		"sign": false
+	},
+	"build": {
+		"appId": "com.stonklights.app",
+		"mac": {
+			"hardenedRuntime": true,
+			"gatekeeperAssess": false,
+			"entitlements": "build/entitlements.mac.plist",
+			"entitlementsInherit": "build/entitlements.mac.plist"
+		},
+		"afterSign": "build/notarize.js"
+	},
+	"devDependencies": {
+		"@electron-forge/cli": "^6.0.0-beta.63",
+		"@electron-forge/maker-deb": "^6.0.0-beta.63",
+		"@electron-forge/maker-rpm": "^6.0.0-beta.63",
+		"@electron-forge/maker-squirrel": "^6.0.0-beta.63",
+		"@electron-forge/maker-zip": "^6.0.0-beta.63",
+		"electron": "^17.2.0",
+		"electron-builder": "^22.14.13"
+	},
+	"dependencies": {
+		"@electron-forge/maker-dmg": "^6.0.0-beta.63",
+		"axios": "^0.26.1",
+		"dotenv": "^16.0.0",
+		"electron-notarize": "^1.2.1",
+		"electron-squirrel-startup": "^1.0.0",
+		"electron-store": "^8.0.1",
+		"jquery": "^3.6.0",
+		"magic-home": "^2.7.1",
+		"update-electron-app": "^2.0.1"
+	}
 }

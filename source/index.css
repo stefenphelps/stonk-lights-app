@@ -7,7 +7,7 @@
 *,
 ::before,
 ::after {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 /**
@@ -16,10 +16,10 @@
  */
 ::before,
 ::after {
-  text-decoration: inherit;
-  /* 1 */
-  vertical-align: inherit;
-  /* 2 */
+	text-decoration: inherit;
+	/* 1 */
+	vertical-align: inherit;
+	/* 2 */
 }
 
 /**
@@ -32,21 +32,21 @@
  * 6. Breaks words to prevent overflow in all browsers (opinionated).
  */
 html {
-  cursor: default;
-  /* 1 */
-  line-height: 1.5;
-  /* 2 */
-  -moz-tab-size: 4;
-  /* 3 */
-  tab-size: 4;
-  /* 3 */
-  -webkit-tap-highlight-color: transparent;
-  -ms-text-size-adjust: 100%;
-  /* 5 */
-  -webkit-text-size-adjust: 100%;
-  /* 5 */
-  word-break: break-word;
-  /* 6 */
+	cursor: default;
+	/* 1 */
+	line-height: 1.5;
+	/* 2 */
+	-moz-tab-size: 4;
+	/* 3 */
+	tab-size: 4;
+	/* 3 */
+	-webkit-tap-highlight-color: transparent;
+	-ms-text-size-adjust: 100%;
+	/* 5 */
+	-webkit-text-size-adjust: 100%;
+	/* 5 */
+	word-break: break-word;
+	/* 6 */
 }
 
 /* Sections
@@ -55,7 +55,7 @@ html {
  * Remove the margin in all browsers (opinionated).
  */
 body {
-  margin: 0;
+	margin: 0;
 }
 
 /**
@@ -63,8 +63,8 @@ body {
  * `article` contexts in Chrome, Edge, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+	font-size: 2em;
+	margin: 0.67em 0;
 }
 
 /* Grouping content
@@ -77,7 +77,7 @@ dl ol,
 dl ul,
 ol dl,
 ul dl {
-  margin: 0;
+	margin: 0;
 }
 
 /**
@@ -87,7 +87,7 @@ ol ol,
 ol ul,
 ul ol,
 ul ul {
-  margin: 0;
+	margin: 0;
 }
 
 /**
@@ -96,19 +96,19 @@ ul ul {
  * 3. Show the overflow in Edge 18- and IE.
  */
 hr {
-  color: inherit;
-  /* 1 */
-  height: 0;
-  /* 2 */
-  overflow: visible;
-  /* 3 */
+	color: inherit;
+	/* 1 */
+	height: 0;
+	/* 2 */
+	overflow: visible;
+	/* 3 */
 }
 
 /**
  * Add the correct display in IE.
  */
 main {
-  display: block;
+	display: block;
 }
 
 /**
@@ -116,15 +116,15 @@ main {
  */
 nav ol,
 nav ul {
-  list-style: none;
-  padding: 0;
+	list-style: none;
+	padding: 0;
 }
 
 /**
  * Prevent VoiceOver from ignoring list semantics in Safari (opinionated).
  */
 nav li::before {
-  content: "​";
+	content: '​';
 }
 
 /**
@@ -133,14 +133,14 @@ nav li::before {
  * 3. Prevent overflow of the container in all browsers (opinionated).
  */
 pre {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
-  overflow: auto;
-  /* 3 */
-  -ms-overflow-style: scrollbar;
-  /* 3 */
+	font-family: monospace, monospace;
+	/* 1 */
+	font-size: 1em;
+	/* 2 */
+	overflow: auto;
+	/* 3 */
+	-ms-overflow-style: scrollbar;
+	/* 3 */
 }
 
 /* Text-level semantics
@@ -149,15 +149,15 @@ pre {
  * Remove the gray background on active links in IE 10.
  */
 a {
-  background-color: transparent;
+	background-color: transparent;
 }
 
 /**
  * Add the correct text decoration in Edge 18-, IE, and Safari.
  */
 abbr[title] {
-  text-decoration: underline;
-  text-decoration: underline dotted;
+	text-decoration: underline;
+	text-decoration: underline dotted;
 }
 
 /**
@@ -165,7 +165,7 @@ abbr[title] {
  */
 b,
 strong {
-  font-weight: bolder;
+	font-weight: bolder;
 }
 
 /**
@@ -175,17 +175,17 @@ strong {
 code,
 kbd,
 samp {
-  font-family: monospace, monospace;
-  /* 1 */
-  font-size: 1em;
-  /* 2 */
+	font-family: monospace, monospace;
+	/* 1 */
+	font-size: 1em;
+	/* 2 */
 }
 
 /**
  * Add the correct font size in all browsers.
  */
 small {
-  font-size: 80%;
+	font-size: 80%;
 }
 
 /* Embedded content
@@ -199,7 +199,7 @@ iframe,
 img,
 svg,
 video {
-  vertical-align: middle;
+	vertical-align: middle;
 }
 
 /**
@@ -207,43 +207,43 @@ video {
  */
 audio,
 video {
-  display: inline-block;
+	display: inline-block;
 }
 
 /**
  * Add the correct display in iOS 4-7.
  */
 audio:not([controls]) {
-  display: none;
-  height: 0;
+	display: none;
+	height: 0;
 }
 
 /**
  * Remove the border on iframes in all browsers (opinionated).
  */
 iframe {
-  border-style: none;
+	border-style: none;
 }
 
 /**
  * Remove the border on images within links in IE 10-.
  */
 img {
-  border-style: none;
+	border-style: none;
 }
 
 /**
  * Change the fill color to match the text color in all browsers (opinionated).
  */
 svg:not([fill]) {
-  fill: currentColor;
+	fill: currentColor;
 }
 
 /**
  * Hide the overflow in IE.
  */
 svg:not(:root) {
-  overflow: hidden;
+	overflow: hidden;
 }
 
 /* Tabular data
@@ -254,12 +254,12 @@ svg:not(:root) {
  * 3. Remove text indentation from table contents in Chrome, Edge, and Safari.
  */
 table {
-  border-collapse: collapse;
-  /* 1 */
-  border-color: inherit;
-  /* 2 */
-  text-indent: 0;
-  /* 3 */
+	border-collapse: collapse;
+	/* 1 */
+	border-color: inherit;
+	/* 2 */
+	text-indent: 0;
+	/* 3 */
 }
 
 /* Forms
@@ -270,7 +270,7 @@ table {
 button,
 input,
 select {
-  margin: 0;
+	margin: 0;
 }
 
 /**
@@ -278,20 +278,20 @@ select {
  * 2. Remove the inheritance of text transform in Edge 18-, Firefox, and IE.
  */
 button {
-  overflow: visible;
-  /* 1 */
-  text-transform: none;
-  /* 2 */
+	overflow: visible;
+	/* 1 */
+	text-transform: none;
+	/* 2 */
 }
 
 /**
  * Correct the inability to style buttons in iOS and Safari.
  */
 button,
-[type="button"],
-[type="reset"],
-[type="submit"] {
-  -webkit-appearance: button;
+[type='button'],
+[type='reset'],
+[type='submit'] {
+	-webkit-appearance: button;
 }
 
 /**
@@ -299,17 +299,17 @@ button,
  * 2. Correct the padding in Firefox.
  */
 fieldset {
-  border: 1px solid #a0a0a0;
-  /* 1 */
-  padding: 0.35em 0.75em 0.625em;
-  /* 2 */
+	border: 1px solid #a0a0a0;
+	/* 1 */
+	padding: 0.35em 0.75em 0.625em;
+	/* 2 */
 }
 
 /**
  * Show the overflow in Edge 18- and IE.
  */
 input {
-  overflow: visible;
+	overflow: visible;
 }
 
 /**
@@ -317,14 +317,14 @@ input {
  * 2. Correct the color inheritance from `fieldset` elements in IE.
  */
 legend {
-  color: inherit;
-  /* 2 */
-  display: table;
-  /* 1 */
-  max-width: 100%;
-  /* 1 */
-  white-space: normal;
-  /* 1 */
+	color: inherit;
+	/* 2 */
+	display: table;
+	/* 1 */
+	max-width: 100%;
+	/* 1 */
+	white-space: normal;
+	/* 1 */
 }
 
 /**
@@ -332,17 +332,17 @@ legend {
  * 2. Add the correct vertical alignment in Chrome, Edge, and Firefox.
  */
 progress {
-  display: inline-block;
-  /* 1 */
-  vertical-align: baseline;
-  /* 2 */
+	display: inline-block;
+	/* 1 */
+	vertical-align: baseline;
+	/* 2 */
 }
 
 /**
  * Remove the inheritance of text transform in Firefox.
  */
 select {
-  text-transform: none;
+	text-transform: none;
 }
 
 /**
@@ -351,33 +351,33 @@ select {
  * 3. Change the resize direction in all browsers (opinionated).
  */
 textarea {
-  margin: 0;
-  /* 1 */
-  overflow: auto;
-  /* 2 */
-  resize: vertical;
-  /* 3 */
-  resize: block;
-  /* 3 */
+	margin: 0;
+	/* 1 */
+	overflow: auto;
+	/* 2 */
+	resize: vertical;
+	/* 3 */
+	resize: block;
+	/* 3 */
 }
 
 /**
  * Remove the padding in IE 10-.
  */
-[type="checkbox"],
-[type="radio"] {
-  padding: 0;
+[type='checkbox'],
+[type='radio'] {
+	padding: 0;
 }
 
 /**
  * 1. Correct the odd appearance in Chrome, Edge, and Safari.
  * 2. Correct the outline style in Safari.
  */
-[type="search"] {
-  -webkit-appearance: textfield;
-  /* 1 */
-  outline-offset: -2px;
-  /* 2 */
+[type='search'] {
+	-webkit-appearance: textfield;
+	/* 1 */
+	outline-offset: -2px;
+	/* 2 */
 }
 
 /**
@@ -385,22 +385,22 @@ textarea {
  */
 ::-webkit-inner-spin-button,
 ::-webkit-outer-spin-button {
-  height: auto;
+	height: auto;
 }
 
 /**
  * Correct the text style of placeholders in Chrome, Edge, and Safari.
  */
 ::-webkit-input-placeholder {
-  color: inherit;
-  opacity: 0.54;
+	color: inherit;
+	opacity: 0.54;
 }
 
 /**
  * Remove the inner padding in Chrome, Edge, and Safari on macOS.
  */
 ::-webkit-search-decoration {
-  -webkit-appearance: none;
+	-webkit-appearance: none;
 }
 
 /**
@@ -408,32 +408,32 @@ textarea {
  * 2. Change font properties to `inherit` in Safari.
  */
 ::-webkit-file-upload-button {
-  -webkit-appearance: button;
-  /* 1 */
-  font: inherit;
-  /* 2 */
+	-webkit-appearance: button;
+	/* 1 */
+	font: inherit;
+	/* 2 */
 }
 
 /**
  * Remove the inner border and padding of focus outlines in Firefox.
  */
 ::-moz-focus-inner {
-  border-style: none;
-  padding: 0;
+	border-style: none;
+	padding: 0;
 }
 
 /**
  * Restore the focus outline styles unset by the previous rule in Firefox.
  */
 :-moz-focusring {
-  outline: 1px dotted ButtonText;
+	outline: 1px dotted ButtonText;
 }
 
 /**
  * Remove the additional :invalid styles in Firefox.
  */
 :-moz-ui-invalid {
-  box-shadow: none;
+	box-shadow: none;
 }
 
 /* Interactive
@@ -442,39 +442,39 @@ textarea {
  * Add the correct display in Edge 18- and IE.
  */
 details {
-  display: block;
+	display: block;
 }
 
 /*
  * Add the correct styles in Edge 18-, IE, and Safari.
  */
 dialog {
-  background-color: white;
-  border: solid;
-  color: black;
-  display: block;
-  height: -moz-fit-content;
-  height: -webkit-fit-content;
-  height: fit-content;
-  left: 0;
-  margin: auto;
-  padding: 1em;
-  position: absolute;
-  right: 0;
-  width: -moz-fit-content;
-  width: -webkit-fit-content;
-  width: fit-content;
+	background-color: white;
+	border: solid;
+	color: black;
+	display: block;
+	height: -moz-fit-content;
+	height: -webkit-fit-content;
+	height: fit-content;
+	left: 0;
+	margin: auto;
+	padding: 1em;
+	position: absolute;
+	right: 0;
+	width: -moz-fit-content;
+	width: -webkit-fit-content;
+	width: fit-content;
 }
 
 dialog:not([open]) {
-  display: none;
+	display: none;
 }
 
 /*
  * Add the correct display in all browsers.
  */
 summary {
-  display: list-item;
+	display: list-item;
 }
 
 /* Scripting
@@ -483,21 +483,21 @@ summary {
  * Add the correct display in IE 9-.
  */
 canvas {
-  display: inline-block;
+	display: inline-block;
 }
 
 /**
  * Add the correct display in IE.
  */
 template {
-  display: none;
+	display: none;
 }
 
 /**
  * Add the correct display in IE 10-.
  */
 [hidden] {
-  display: none;
+	display: none;
 }
 
 /* Accessibility
@@ -505,136 +505,136 @@ template {
 /**
  * Change the cursor on busy elements in all browsers (opinionated).
  */
-[aria-busy="true"] {
-  cursor: progress;
+[aria-busy='true'] {
+	cursor: progress;
 }
 
 /*
  * Change the cursor on control elements in all browsers (opinionated).
  */
 [aria-controls] {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 /*
  * Change the cursor on disabled, not-editable, or otherwise
  * inoperable elements in all browsers (opinionated).
  */
-[aria-disabled="true"],
+[aria-disabled='true'],
 [disabled] {
-  cursor: not-allowed;
+	cursor: not-allowed;
 }
 
 /*
  * Change the display on visually hidden accessible elements
  * in all browsers (opinionated).
  */
-[aria-hidden="false"][hidden] {
-  display: initial;
+[aria-hidden='false'][hidden] {
+	display: initial;
 }
 
-[aria-hidden="false"][hidden]:not(:focus) {
-  clip: rect(0, 0, 0, 0);
-  position: absolute;
+[aria-hidden='false'][hidden]:not(:focus) {
+	clip: rect(0, 0, 0, 0);
+	position: absolute;
 }
 
 html {
-  height: 100%;
+	height: 100%;
 }
 
 body {
-  display: flex;
-  flex-direction: column;
-  height: 100%;
+	display: flex;
+	flex-direction: column;
+	height: 100%;
 }
 
 .wrapper {
-  max-width: 1280px;
-  width: 100%;
-  padding: 0 1rem;
-  margin: 0 auto;
+	max-width: 1280px;
+	width: 100%;
+	padding: 0 1rem;
+	margin: 0 auto;
 }
 
 .wrapper--narrow {
-  max-width: 600px;
-  width: 100%;
-  padding: 1rem;
-  margin: 0 auto;
+	max-width: 600px;
+	width: 100%;
+	padding: 1rem;
+	margin: 0 auto;
 }
 
 .text-center {
-  text-align: center;
+	text-align: center;
 }
 
 .text-left {
-  text-align: left;
+	text-align: left;
 }
 
 .text-right {
-  text-align: right;
+	text-align: right;
 }
 
 @keyframes fade {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-  }
+	from {
+		opacity: 1;
+	}
+	to {
+		opacity: 0;
+	}
 }
 @keyframes flicker-shadow {
-  0%,
-  19.999%,
-  22%,
-  62.999%,
-  64%,
-  64.999%,
-  70%,
-  100% {
-    filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.9875));
-  }
-  20%,
-  21.999%,
-  63%,
-  63.999%,
-  65%,
-  69.999% {
-    filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.5));
-  }
+	0%,
+	19.999%,
+	22%,
+	62.999%,
+	64%,
+	64.999%,
+	70%,
+	100% {
+		filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.9875));
+	}
+	20%,
+	21.999%,
+	63%,
+	63.999%,
+	65%,
+	69.999% {
+		filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.5));
+	}
 }
 @keyframes flicker-background-red {
-  0%,
-  19.999%,
-  22%,
-  62.999%,
-  64%,
-  64.999%,
-  70%,
-  100% {
-    background: #ff2366;
-    box-shadow: 0px 0px 18px rgba(255, 35, 102, 0.9875);
-  }
-  20%,
-  21.999%,
-  63%,
-  63.999%,
-  65%,
-  69.999% {
-    background: rgba(255, 35, 102, 0.95);
-    box-shadow: 0px 0px 18px rgba(255, 35, 102, 0.5);
-  }
+	0%,
+	19.999%,
+	22%,
+	62.999%,
+	64%,
+	64.999%,
+	70%,
+	100% {
+		background: #ff2366;
+		box-shadow: 0px 0px 18px rgba(255, 35, 102, 0.9875);
+	}
+	20%,
+	21.999%,
+	63%,
+	63.999%,
+	65%,
+	69.999% {
+		background: rgba(255, 35, 102, 0.95);
+		box-shadow: 0px 0px 18px rgba(255, 35, 102, 0.5);
+	}
 }
 html {
-  font-family: "Heebo", sans-serif;
+	font-family: 'Heebo', sans-serif;
 }
 
 code,
 kbd,
 samp,
 pre {
-  font-family: "Menlo", "Consolas", "Roboto Mono", "Ubuntu Monospace",
-    "Noto Mono", "Oxygen Mono", "Liberation Mono", monospace,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+	font-family: 'Menlo', 'Consolas', 'Roboto Mono', 'Ubuntu Monospace',
+		'Noto Mono', 'Oxygen Mono', 'Liberation Mono', monospace,
+		'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
 h1,
@@ -643,488 +643,488 @@ h3,
 h4,
 h5,
 h6 {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 .hero h1 {
-  font-size: 58px;
-  letter-spacing: -0.01em;
-  line-height: 64px;
+	font-size: 58px;
+	letter-spacing: -0.01em;
+	line-height: 64px;
 }
 
 h1 {
-  font-size: 40px;
-  line-height: 42px;
+	font-size: 40px;
+	line-height: 42px;
 }
 
 h2 {
-  font-size: 28px;
-  letter-spacing: -0.01em;
-  line-height: 36px;
+	font-size: 28px;
+	letter-spacing: -0.01em;
+	line-height: 36px;
 }
 
 h3 {
-  font-size: 18px;
-  line-height: 26px;
+	font-size: 18px;
+	line-height: 26px;
 }
 
 p {
-  margin: 0 0 1rem 0;
+	margin: 0 0 1rem 0;
 }
 
 a {
-  color: white;
+	color: white;
 }
 
 .button {
-  border-radius: 0.5rem;
-  background: #0b78e3;
-  border: 1px solid #0b78e3;
-  color: #ffffff;
-  line-height: 1;
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 1.2;
-  text-decoration: none;
-  margin: 2rem auto;
-  transition: all 284ms ease;
+	border-radius: 0.5rem;
+	background: #0b78e3;
+	border: 1px solid #0b78e3;
+	color: #ffffff;
+	line-height: 1;
+	padding: 1rem 2rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 1.2;
+	text-decoration: none;
+	margin: 2rem auto;
+	transition: all 284ms ease;
 }
 .button svg {
-  margin-left: 0.5rem;
+	margin-left: 0.5rem;
 }
 .button--ghost {
-  background: transparent;
-  color: white;
-  border-color: white;
+	background: transparent;
+	color: white;
+	border-color: white;
 }
 .button:hover,
 .button:focus {
-  cursor: pointer;
-  background: #ff2366;
-  border-color: #ff2366;
-  color: white;
-  animation: flicker-background-red 5s linear infinite alternate;
+	cursor: pointer;
+	background: #ff2366;
+	border-color: #ff2366;
+	color: white;
+	animation: flicker-background-red 5s linear infinite alternate;
 }
 
 .button[disabled] {
-  opacity: 0.5;
-  cursor: not-allowed;
+	opacity: 0.5;
+	cursor: not-allowed;
 }
 .button[disabled]:hover,
 .button[disabled]:focus {
-  background-color: #0b78e3 !important;
-  border: 1px solid #0b78e3 !important;
-  color: #ffffff !important;
-  animation: none !important;
+	background-color: #0b78e3 !important;
+	border: 1px solid #0b78e3 !important;
+	color: #ffffff !important;
+	animation: none !important;
 }
 
 textarea {
-  overflow: auto;
-  vertical-align: top;
+	overflow: auto;
+	vertical-align: top;
 }
 
 textarea,
-input[type="text"],
-input[type="password"],
-input[type="datetime"],
-input[type="datetime-local"],
-input[type="date"],
-input[type="month"],
-input[type="time"],
-input[type="week"],
-input[type="number"],
-input[type="email"],
-input[type="url"],
-input[type="search"],
-input[type="tel"] {
-  border-radius: 0.5rem;
-  background: white;
-  border: 1px solid white;
-  color: #161823;
-  line-height: 1;
-  padding: 1rem 2rem;
-  display: flex;
-  align-items: center;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 1.2;
-  text-decoration: none;
-  margin: 2rem 0 2rem;
-  transition: all 284ms ease;
-  width: 100%;
+input[type='text'],
+input[type='password'],
+input[type='datetime'],
+input[type='datetime-local'],
+input[type='date'],
+input[type='month'],
+input[type='time'],
+input[type='week'],
+input[type='number'],
+input[type='email'],
+input[type='url'],
+input[type='search'],
+input[type='tel'] {
+	border-radius: 0.5rem;
+	background: white;
+	border: 1px solid white;
+	color: #161823;
+	line-height: 1;
+	padding: 1rem 2rem;
+	display: flex;
+	align-items: center;
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 1.2;
+	text-decoration: none;
+	margin: 2rem 0 2rem;
+	transition: all 284ms ease;
+	width: 100%;
 }
 html {
-  scroll-behavior: smooth;
+	scroll-behavior: smooth;
 }
 
 body {
-  background: #161823;
-  color: #ffffff;
+	background: #161823;
+	color: #ffffff;
 }
 
 img {
-  max-width: 100%;
-  height: auto;
+	max-width: 100%;
+	height: auto;
 }
 
 hr {
-  border: 0 none;
-  border-top: 3px solid #ffffff;
-  display: block;
-  margin-top: 3rem;
-  margin-bottom: 3rem;
-  opacity: 0.18;
+	border: 0 none;
+	border-top: 3px solid #ffffff;
+	display: block;
+	margin-top: 3rem;
+	margin-bottom: 3rem;
+	opacity: 0.18;
 }
 
 .header {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem 1rem 0 1rem;
-  background: #0e0f1a;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1.5rem 1rem 0 1rem;
+	background: #0e0f1a;
 }
 .header-logo {
-  margin: 0 0 -1rem;
+	margin: 0 0 -1rem;
 }
 .header-logo-svg {
-  width: 300px;
-  filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.75));
-  animation: flicker-shadow 6s linear infinite alternate;
+	width: 300px;
+	filter: drop-shadow(0px 0px 18px rgba(11, 120, 227, 0.75));
+	animation: flicker-shadow 6s linear infinite alternate;
 }
 
 .hero {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding: 5rem 0;
-  background: linear-gradient(to right, #0e0f1a, #161823);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 5rem 0;
+	background: linear-gradient(to right, #0e0f1a, #161823);
 }
 .hero-media {
-  flex: 1 1 250px;
-  margin: 0;
-  position: sticky;
-  top: -5rem;
-  z-index: 1;
-  pointer-events: none;
+	flex: 1 1 250px;
+	margin: 0;
+	position: sticky;
+	top: -5rem;
+	z-index: 1;
+	pointer-events: none;
 }
 .hero-media img {
-  position: sticky;
-  top: -3rem;
-  display: none;
+	position: sticky;
+	top: -3rem;
+	display: none;
 }
 .hero-media img.active {
-  display: block;
+	display: block;
 }
 .hero-text {
-  flex: 0 1 450px;
-  margin: 2rem;
+	flex: 0 1 450px;
+	margin: 2rem;
 }
 @media (min-width: 767px) {
-  .hero-text {
-    margin: 3rem 10% 3rem 0;
-  }
+	.hero-text {
+		margin: 3rem 10% 3rem 0;
+	}
 }
 .hero-text-sup {
-  margin-bottom: 0;
-  color: #ff2366;
-  text-transform: uppercase;
-  font-weight: 500;
+	margin-bottom: 0;
+	color: #ff2366;
+	text-transform: uppercase;
+	font-weight: 500;
 }
 .hero-text-h1 {
-  margin: 0.25rem 0 1rem;
+	margin: 0.25rem 0 1rem;
 }
 .hero-text-h2 {
-  display: flex;
-  align-items: center;
-  margin: 1rem 0;
+	display: flex;
+	align-items: center;
+	margin: 1rem 0;
 }
 .hero-text-h2 span {
-  flex: 1 1 400px;
+	flex: 1 1 400px;
 }
 .hero-text-h2 .button {
-  flex: 0 0 150px;
-  margin: 0 1rem;
-  display: block;
+	flex: 0 0 150px;
+	margin: 0 1rem;
+	display: block;
 }
 
 .customizer {
-  padding: 2rem 0;
+	padding: 2rem 0;
 }
 .customizer .wrapper {
-  max-width: 900px;
+	max-width: 900px;
 }
 .customizer fieldset {
-  border: 0 none;
-  padding: 0;
-  margin: 2rem 0 0 0;
-  border-top: 3px solid rgba(255, 255, 255, 0.1);
+	border: 0 none;
+	padding: 0;
+	margin: 2rem 0 0 0;
+	border-top: 3px solid rgba(255, 255, 255, 0.1);
 }
 .customizer legend {
-  font-size: 2.5rem;
-  padding-right: 1.5rem;
-  margin: 0 0 1rem;
+	font-size: 2.5rem;
+	padding-right: 1.5rem;
+	margin: 0 0 1rem;
 }
 .customizer ul {
-  display: flex;
-  flex-wrap: wrap;
-  list-style: none;
-  padding: 0;
-  margin: -1rem;
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: -1rem;
 }
 .customizer-option {
-  margin: 1rem;
-  flex: 1 1 170px;
+	margin: 1rem;
+	flex: 1 1 170px;
 }
 .customizer-option-image {
-  width: 50px;
-  height: 50px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0.5rem;
-  margin-right: 1rem;
-  border: 1px solid rgba(255, 255, 255, 0.25);
-  opacity: 0.6;
-  border-radius: 0.25rem;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 0.5rem;
+	margin-right: 1rem;
+	border: 1px solid rgba(255, 255, 255, 0.25);
+	opacity: 0.6;
+	border-radius: 0.25rem;
 }
 .customizer-option-image svg {
-  display: block;
-  flex: 40px;
+	display: block;
+	flex: 40px;
 }
 .customizer-option-text {
-  flex: 1 1 100px;
-  font-size: 1.25rem;
-  opacity: 0.65;
-  line-height: 1;
+	flex: 1 1 100px;
+	font-size: 1.25rem;
+	opacity: 0.65;
+	line-height: 1;
 }
 .customizer-option-text b {
-  display: block;
-  font-size: 1.5rem;
+	display: block;
+	font-size: 1.5rem;
 }
 .customizer-option label {
-  border: 1px solid rgba(255, 255, 255, 0.15);
-  padding: 1rem;
-  border-radius: 0.5rem;
-  display: flex;
-  align-items: center;
-  transition: 400ms ease;
-  cursor: pointer;
-  background: transparent;
+	border: 1px solid rgba(255, 255, 255, 0.15);
+	padding: 1rem;
+	border-radius: 0.5rem;
+	display: flex;
+	align-items: center;
+	transition: 400ms ease;
+	cursor: pointer;
+	background: transparent;
 }
-.customizer-option input[type="radio"] {
-  position: absolute;
-  visibility: hidden;
+.customizer-option input[type='radio'] {
+	position: absolute;
+	visibility: hidden;
 }
-.customizer-option input[type="radio"]:hover ~ label,
-.customizer-option input[type="radio"]:focus ~ label {
-  border-color: white;
-  background: rgba(255, 255, 255, 0.1);
+.customizer-option input[type='radio']:hover ~ label,
+.customizer-option input[type='radio']:focus ~ label {
+	border-color: white;
+	background: rgba(255, 255, 255, 0.1);
 }
-.customizer-option input[type="radio"]:checked ~ label {
-  border-color: white;
-  background: rgba(255, 255, 255, 0.1);
+.customizer-option input[type='radio']:checked ~ label {
+	border-color: white;
+	background: rgba(255, 255, 255, 0.1);
 }
-.customizer-option input[type="radio"]:checked ~ label .customizer-option-text,
+.customizer-option input[type='radio']:checked ~ label .customizer-option-text,
 .customizer-option
-  input[type="radio"]:checked
-  ~ label
-  .customizer-option-image {
-  opacity: 1;
+	input[type='radio']:checked
+	~ label
+	.customizer-option-image {
+	opacity: 1;
 }
 .customizer-option--quantity label {
-  border-color: white;
+	border-color: white;
 }
 .customizer-option--quantity .customizer-option-text {
-  opacity: 1;
+	opacity: 1;
 }
 .customizer-option--quantity .customizer-option-image {
-  opacity: 1;
-  padding: 0;
-  width: 70px;
+	opacity: 1;
+	padding: 0;
+	width: 70px;
 }
 .customizer-option--quantity .customizer-option-image input#quantity {
-  padding: 0 0.75rem;
-  font-size: 1rem;
-  height: 100%;
-  width: 100%;
-  border-radius: 0.25rem;
-  background: rgba(255, 255, 255, 0.1);
-  color: white;
+	padding: 0 0.75rem;
+	font-size: 1rem;
+	height: 100%;
+	width: 100%;
+	border-radius: 0.25rem;
+	background: rgba(255, 255, 255, 0.1);
+	color: white;
 }
 .customizer-option--price {
-  font-size: 4rem;
-  line-height: 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	font-size: 4rem;
+	line-height: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 .customizer-option--checkout {
-  text-align: center;
+	text-align: center;
 }
 .customizer-option--checkout .button {
-  margin: 0;
-  width: 100%;
+	margin: 0;
+	width: 100%;
 }
 
 .app-page main {
-  margin: 3rem 0;
+	margin: 3rem 0;
 }
 .app-page .scanning {
-  position: fixed;
-  top: 0;
-  left: 0;
-  text-align: center;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  opacity: 1;
-  transition: all 250ms ease;
-  z-index: 1;
+	position: fixed;
+	top: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	opacity: 1;
+	transition: all 250ms ease;
+	z-index: 1;
 }
 .app-page .scanning.hidden {
-  opacity: 0;
-  visibility: hidden;
-  transition: all 250ms ease;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 250ms ease;
 }
 .app-page .scanning:before {
-  content: "";
-  position: absolute;
-  background: black;
-  opacity: 0.5;
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
+	content: '';
+	position: absolute;
+	background: black;
+	opacity: 0.5;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
 }
 
 .app-page .scanning div {
-  position: relative;
+	position: relative;
 }
 .app-page .scanning span {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  margin: 0.5rem;
-  background: white;
-  opacity: 0.5;
-  border-radius: 50%;
-  animation: 1s fade infinite alternate;
+	display: inline-block;
+	width: 1rem;
+	height: 1rem;
+	margin: 0.5rem;
+	background: white;
+	opacity: 0.5;
+	border-radius: 50%;
+	animation: 1s fade infinite alternate;
 }
 .app-page .scanning span:nth-child(2) {
-  animation-delay: 0.2s;
+	animation-delay: 0.2s;
 }
 .app-page .scanning span:nth-child(3) {
-  animation-delay: 0.4s;
+	animation-delay: 0.4s;
 }
 .app-page .no-results {
-  text-align: center;
-  opacity: 1;
-  transition: all 250ms ease;
-  padding: 1rem;
-  visibility: visible;
+	text-align: center;
+	opacity: 1;
+	transition: all 250ms ease;
+	padding: 1rem;
+	visibility: visible;
 }
 .app-page .no-results.hidden {
-  position: absolute;
-  opacity: 0;
-  visibility: hidden;
-  transition: all 250ms ease;
+	position: absolute;
+	opacity: 0;
+	visibility: hidden;
+	transition: all 250ms ease;
 }
 .app-page .lights {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-wrap: wrap;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .app-page .lights-item {
-  position: relative;
-  background: none;
-  border: 0 none;
-  margin: 1rem;
-  filter: drop-shadow(0px 0px 18px rgba(104, 89, 234, 0.875));
+	position: relative;
+	background: none;
+	border: 0 none;
+	margin: 1rem;
+	filter: drop-shadow(0px 0px 18px rgba(104, 89, 234, 0.875));
 }
 .app-page .lights-item .lights-item-price,
 .app-page .lights-item .lights-item-symbol {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 100%;
-  padding: 1.5rem;
-  text-transform: uppercase;
-  font-weight: bold;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	width: 100%;
+	padding: 1.5rem;
+	text-transform: uppercase;
+	font-weight: bold;
 }
 .app-page .lights-item .lights-item-price {
-  margin-top: 1.25rem;
+	margin-top: 1.25rem;
 }
 .app-page .lights-item:hover,
 .app-page .lights-item:focus {
-  filter: drop-shadow(0px 0px 18px rgba(255, 35, 102, 0.875));
-  outline: 0;
-  cursor: pointer;
+	filter: drop-shadow(0px 0px 18px rgba(255, 35, 102, 0.875));
+	outline: 0;
+	cursor: pointer;
 }
 .app-page dialog {
-  border: 0 none;
-  background: rgba(0, 0, 0, 0.875);
-  color: white;
-  width: 100%;
-  height: 100%;
-  top: 0;
+	border: 0 none;
+	background: rgba(0, 0, 0, 0.875);
+	color: white;
+	width: 100%;
+	height: 100%;
+	top: 0;
 }
 .app-page dialog::backdrop {
-  backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
 }
 .app-page dialog fieldset {
-  margin: 1rem;
-  border-left: 0 none;
-  border-right: 0 none;
-  border-bottom: 0 none;
+	margin: 1rem;
+	border-left: 0 none;
+	border-right: 0 none;
+	border-bottom: 0 none;
 }
 .app-page dialog legend {
-  padding: 0 1rem;
-  display: inline-block;
-  font-size: 2rem;
+	padding: 0 1rem;
+	display: inline-block;
+	font-size: 2rem;
 }
 .app-page dialog label {
-  text-transform: capitalize;
+	text-transform: capitalize;
 }
 .app-page dialog .category-fieldset-items {
-  display: flex;
+	display: flex;
 }
 .app-page dialog .category-fieldset-items-item {
-  flex: 1;
-  text-align: center;
+	flex: 1;
+	text-align: center;
 }
-.app-page dialog .category-fieldset-items-item input[type="radio"] {
-  position: absolute;
-  visibility: hidden;
+.app-page dialog .category-fieldset-items-item input[type='radio'] {
+	position: absolute;
+	visibility: hidden;
 }
 .app-page dialog .category-fieldset-items-item label {
-  display: block;
-  padding: 1rem;
-  border: 1px solid white;
-  opacity: 0.75;
-  border-radius: 0.5rem;
-  margin: 1rem;
+	display: block;
+	padding: 1rem;
+	border: 1px solid white;
+	opacity: 0.75;
+	border-radius: 0.5rem;
+	margin: 1rem;
 }
 .app-page
-  dialog
-  .category-fieldset-items-item
-  input[type="radio"]:checked
-  ~ label {
-  opacity: 1;
+	dialog
+	.category-fieldset-items-item
+	input[type='radio']:checked
+	~ label {
+	opacity: 1;
 }
 .app-page dialog .symbol-fieldset input {
-  margin: 0.5rem 0;
+	margin: 0.5rem 0;
 }
 
 .footer {
-  margin-top: auto;
-  padding: 1rem;
-  opacity: 0.45;
+	margin-top: auto;
+	padding: 1rem;
+	opacity: 0.45;
 }
